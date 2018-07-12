@@ -1,13 +1,13 @@
-# Life Design | Mongeral Aegon
+# Life Design
 
 [![GitHub forks](https://img.shields.io/github/forks/rafaeltorres89/tvt-mg-ds.svg)](https://github.com/rafaeltorres89/tvt-mg-ds/network)
 [![npm](https://img.shields.io/npm/v/npm.svg)](https://github.com/rafaeltorres89/tvt-mg-ds/npm)
 
 -------
 
-<h3 align="center">
+<!--h3 align="center">
   <img src="https://madstyle.mongeralaegon.com.br/assets/app/css/img/site/global/mongeral-aegon-logo-site.png" alt="Mongeral Aegon" />
-</h3>
+</h3-->
 
 <p align="center">
     <a href="#about">About</a> &bull;
@@ -18,7 +18,7 @@
 
 ## About
 
-The Life Design of Aegon Mongeral was thought of as an enterprise desgin system. Where all development and creation content is presented directly on the website (http://lifedesign-mongeral.com).
+The Life Design was thought of as an enterprise desgin system. Where all development and creation content is presented directly on the website (http://lifedesign-rafaeltorres.com).
 
 The goal since git directory, is to store the developed and created structure as a backup. In addition, you are thinking of contributing to the development of Life Design, you will be able to learn in an easy and effective way what and how we work in our team.
 
@@ -37,35 +37,60 @@ Write
 Complete design structure
 
 ```
-gulp-file/
-├── assets
-│   ├── css
-│   │   │── app.css
-│   │   └── mongeral.min.css
-│   ├── img
-│   └── js
-├── node_modules* (ignore git)
+life-design/
+├── node_modules*
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   └── manifest.json
 ├── src
-│   └── scss
-│       │── base
-│       │   └── _nomalize.scss
-│       │── components
-│       │   │── _button.scss
-│       │   └── _checkbox.scss
-│       │── helpers
-│       │   │── _animate.scss
-│       │   │── _colors.scss
-│       │   │── _fonts.scss
-│       │   │── _mixins.scss
-│       │   │── _settings.scss
-│       │   └── _variables.scss
-│       │── _general.scss
-│       └── app.scss
+│   ├── components
+│   │   │── alert.js
+│   │   └── button.js
+│   ├── dist
+│   │   │── brand
+│   │   │── css
+│   │   │   │── app.css
+│   │   │   │── index.css
+│   │   │   └── mongeral.min.css
+│   │   │── img
+│   │   └── js
+│   ├── include
+│   │   │── aside
+│   │   │── footer
+│   │   │   └── index.js
+│   │   │── header
+│   │   │   └── index.js
+│   │   └── navbar
+│   │       └── index.js
+│   ├── pages
+│   │   └── master
+│   │       └── index.js
+│   │── scss
+│   │   │── base
+│   │   │   └── _nomalize.scss
+│   │   │── components
+│   │   │   │── _button.scss
+│   │   │   └── _checkbox.scss
+│   │   │── helpers
+│   │   │   │── _animate.scss
+│   │   │   └── _fonts.scss
+│   │   │── settings
+│   │   │   │── _colors.scss
+│   │   │   │── _mixins.scss
+│   │   │   │── _oocss.scss
+│   │   │   └── _variables.scss
+│   │   │── vendor
+│   │   │   └── bootstrap-4.1.1
+│   │   │── _general.scss
+│   │   └── app.scss
+│   ├── index.js
+│   └── registerServiceWorker.js
 ├── .gitignore
 ├── gulpfile.js
-├── index.html
-└── packege.json
-README.md
+├── packege-lock.json
+├── packege.json
+└── README.md
 ```
 
 
