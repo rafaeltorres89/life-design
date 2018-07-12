@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
-/* import './dist/css/mongeral.min.css'; */
+
 import Header from '../../include/header';
-import Footer from '../../include/navbar';
-import NavBar from '../../include/footer';
+import NavBar from '../../include/navbar';
+import Aside from '../../include/aside';
+import Footer from '../../include/footer';
+
+import '../../dist/css/mongeral.min.css';
 
 class Master extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="content">
         <Header />
         <NavBar />
-        <h1>oi</h1>
+        <Aside />
         <Footer />
       </div>
     );

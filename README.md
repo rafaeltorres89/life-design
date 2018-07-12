@@ -56,7 +56,6 @@ life-design/
 │   │   │── img
 │   │   └── js
 │   ├── include
-│   │   │── aside
 │   │   │── footer
 │   │   │   └── index.js
 │   │   │── header
