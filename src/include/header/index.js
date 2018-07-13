@@ -1,8 +1,13 @@
 import React from 'react';
 
+import Navbar from '../navbar';
+
 const Header = () => {
     return (
-        <h1>Topo</h1>
+        <header>
+            <h1>Header do site</h1>
+            <Navbar />
+        </header>
     );
 }
 
