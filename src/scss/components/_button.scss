@@ -13,11 +13,5 @@
     @include btnTrans;
 }
 
-.btn-danger
-{
-    @include btnDef;
-    @include btnDanger;
-}
-
 .btn-light
 { background: $light; }

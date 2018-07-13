@@ -103,13 +103,3 @@
     background: transparent;
     border-color: $light;
 }
-
-//Button Danger
-@mixin btnDanger
-{
-	background: $cherry;
-	border-color: $cherry;
-	
-	&:hover
-	{ color: $cherry; }
-}

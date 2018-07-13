@@ -10500,11 +10500,11 @@ template {
 }
 
 .txt-dark {
-  color: #201F24;
+  color: #231F20;
 }
 
-.txt-concrete {
-  color: #7F7F7F;
+.txt-silver {
+  color: #A5A5A5;
 }
 
 /* Animate
@@ -10587,27 +10587,9 @@ template {
 }
 
 .btn-trans:hover {
-  color: #201F24;
+  color: #231F20;
   background: white;
   border-color: white;
-}
-
-.btn-danger {
-  border: solid 1px;
-  color: white;
-  transition: .3s;
-  background: #FF1D5B;
-  border-color: #FF1D5B;
-}
-
-.btn-danger:hover {
-  color: #201F24;
-  background: white;
-  border-color: white;
-}
-
-.btn-danger:hover {
-  color: #FF1D5B;
 }
 
 .btn-light {
@@ -10643,9 +10625,5 @@ html, body {
 }
 
 p, label, span, a, li {
-  color: #7F7F7F;
-}
-
-a:hover {
-  color: #FF1D5B;
+  color: #A5A5A5;
 }

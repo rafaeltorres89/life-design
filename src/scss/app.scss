@@ -8,14 +8,12 @@ p, label, span, a, li
     @if (lightness($silver) < 30) {
         color: $light;
     } @else {
-        color: $concrete;
+        color: $silver;
     }
 }
 
 p strong, a strong, span strong
 { @extend #BOLD; }
-
-a:hover { color: $cherry; }
 
 ul
 {
