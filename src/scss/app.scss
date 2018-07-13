@@ -23,3 +23,13 @@ ul
 
 .pull-left      { @extend #LEFT; }
 .pull-right     { @extend #RIGHT; }
+
+body
+{
+    header
+    {
+        @extend #FIXED, #NO-MARGIN;
+        width: $percentage; height: 65px;
+        background: $lochmara;
+    }
+}
