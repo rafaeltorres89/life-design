@@ -26,7 +26,7 @@
 
 // TRANSITION
 @mixin transition-link 
-{ transition: .3s; }
+{ @extend #ANIMATE; }
 
 // SPACE
 @mixin space
@@ -85,9 +85,9 @@
 //Button Transparente 
 @mixin btnDef
 {
+	@extend #ANIMATE;
     border: solid 1px;
     color: $light;
-	transition: .3s;
 	
 	&:hover
 	{

@@ -6,7 +6,9 @@ import VendorBar from '../vendorbar';
 const Header = () => {
     return (
         <header>
-            <h1>Header do site</h1>
+            <h1 className="logo">
+                <a href="" title="Mongeral Aegon | Life Design">Mongeral Aegon | Life Design</a>
+            </h1>
             <Navbar />
             <VendorBar />
         </header>

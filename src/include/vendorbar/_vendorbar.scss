@@ -1,0 +1,15 @@
+/* Vendor Bar
+----------------------------------------------------------------------- */
+
+ul.vendorbar
+{
+    @extend #RIGHT;
+    margin-right: 35px;
+
+    li
+    {
+        margin-left: 10px;
+
+        &:first-child { margin-left: 0; }
+    }
+}

@@ -1,0 +1,10 @@
+/* NavBar
+----------------------------------------------------------------------- */
+
+ul.navbar
+{
+    @extend #LEFT, #NO-MARGIN, #NO-PADDING;
+    margin-left: 20px;
+
+    li a { padding: 0 10px; }
+}

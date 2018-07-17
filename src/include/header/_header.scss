@@ -1,0 +1,45 @@
+/* Header
+----------------------------------------------------------------------- */
+
+header
+{
+    @extend #FIXED, #NO-MARGIN;
+    width: $percentage; height: 50px;
+    line-height: 50px;
+    background: $cerulean;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+
+    h1.logo
+    {
+        @extend #LEFT, #ANIMATE, #NO-MARGIN;
+        background: url(../../dist/img/mongeral-aegon-logo.png) no-repeat;
+        width: 160px;   height: 50px;
+        margin-left: 20px;
+
+        > a {
+            @extend #INDENT, #SHOW;
+            @include transparent;
+            @include default;
+        }
+    }
+
+    ul li
+    { @extend #LEFT; }
+
+    ul li,
+    ul li a
+    {
+        color: $light;
+        font-size: 0.87rem;
+
+        &:hover
+        {
+            @extend #ANIMATE, #NO-UNDERLINE;
+            color: darken($cerulean, 20%);
+        }
+    }
+
+    @import "../navbar/navbar";
+    
+    @import "../vendorbar/vendorbar";
+}

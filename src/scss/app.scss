@@ -26,10 +26,5 @@ ul
 
 body
 {
-    header
-    {
-        @extend #FIXED, #NO-MARGIN;
-        width: $percentage; height: 65px;
-        background: $lochmara;
-    }
+    @import "../include/header/header";
 }

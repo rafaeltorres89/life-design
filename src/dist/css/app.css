@@ -10382,11 +10382,11 @@ template {
   position: fixed;
 }
 
-#LEFT, .pull-left {
+#LEFT, .pull-left, body header h1.logo, body header ul li, body header ul.navbar {
   float: left;
 }
 
-#RIGHT, .pull-right {
+#RIGHT, .pull-right, body header ul.vendorbar {
   float: right;
 }
 
@@ -10402,7 +10402,7 @@ template {
   display: none;
 }
 
-#SHOW {
+#SHOW, body header h1.logo > a {
   display: block;
 }
 
@@ -10412,13 +10412,13 @@ template {
 
 #NO-MARGIN, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, body header {
+*:before, body header, body header h1.logo, body header h1.logo > a, body header ul.navbar {
   margin: 0;
 }
 
 #NO-PADDING, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before {
+*:before, body header h1.logo > a, body header ul.navbar {
   padding: 0;
 }
 
@@ -10446,7 +10446,7 @@ template {
   border: none;
 }
 
-#INDENT {
+#INDENT, body header h1.logo > a {
   text-indent: -9999px;
 }
 
@@ -10454,7 +10454,8 @@ template {
   text-decoration: underline;
 }
 
-#NO-UNDERLINE {
+#NO-UNDERLINE, body header ul li:hover,
+body header ul li a:hover {
   text-decoration: none;
 }
 
@@ -10488,6 +10489,11 @@ template {
 
 #HIDDEN {
   overflow: hidden;
+}
+
+#ANIMATE, .btn-trans, body header h1.logo, body header ul li:hover,
+body header ul li a:hover {
+  transition: .3s;
 }
 
 /* Mixins
@@ -10581,7 +10587,6 @@ template {
 .btn-trans {
   border: solid 1px;
   color: white;
-  transition: .3s;
   background: transparent;
   border-color: white;
 }
@@ -10605,7 +10610,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: baseline;
   font-style: inherit;
   font-weight: lighter;
-  font-size: 12px;
+  font-size: 1rem;
 }
 
 *,
@@ -10628,8 +10633,65 @@ p, label, span, a, li {
   color: #A5A5A5;
 }
 
+body {
+  /* Header
+----------------------------------------------------------------------- */
+}
+
 body header {
   width: 100%;
-  height: 65px;
-  background: #0079C2;
+  height: 50px;
+  line-height: 50px;
+  background: #00aeef;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  /* NavBar
+----------------------------------------------------------------------- */
+  /* Vendor Bar
+----------------------------------------------------------------------- */
+}
+
+body header h1.logo {
+  background: url(../../dist/img/mongeral-aegon-logo.png) no-repeat;
+  width: 160px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+body header h1.logo > a {
+  opacity: 0;
+  -moz-opacity: 0;
+  filter: alpha(opacity=0);
+  width: 100%;
+  height: 100%;
+}
+
+body header ul li,
+body header ul li a {
+  color: white;
+  font-size: 0.87rem;
+}
+
+body header ul li:hover,
+body header ul li a:hover {
+  color: #006489;
+}
+
+body header ul.navbar {
+  margin-left: 20px;
+}
+
+body header ul.navbar li a {
+  padding: 0 10px;
+}
+
+body header ul.vendorbar {
+  margin-right: 35px;
+}
+
+body header ul.vendorbar li {
+  margin-left: 10px;
+}
+
+body header ul.vendorbar li:first-child {
+  margin-left: 0;
 }

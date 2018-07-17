@@ -2,10 +2,11 @@ import React from 'react';
 
 const NavBar = () => {
     return (
-        <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
+        <ul className="navbar">
+            <li><a href="" title="Home">Home</a></li>
+            <li><a href="" title="Documentation">Documentation</a></li>
+            <li><a href="" title="Tutorial">Tutorial</a></li>
+            <li><a href="" title="Community">Community</a></li>
         </ul>
     );
 }
