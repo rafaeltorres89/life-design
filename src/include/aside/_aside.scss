@@ -11,5 +11,24 @@ main
         @extend #OVERFLOW;
         @include default;
         padding: 20px;
+        padding-right: 200px;
+    }
+
+    .section-nav
+    {
+        @extend #FIXED;
+        top: 0; right: 0;
+        width: 190px;
+        padding-left: 10px; margin-top: 70px;
+        border-left: solid 1px lighten($silver, 20%);
+
+        .lk
+        {
+            @extend #NO-UNDERLINE;
+            font-size: 0.81rem;
+            color: $metal;
+
+            &:hover { color: $cerulean; }
+        }
     }
 }

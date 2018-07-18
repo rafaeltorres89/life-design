@@ -10375,7 +10375,7 @@ template {
   position: absolute;
 }
 
-#FIXED, body header, body aside.sidebar {
+#FIXED, body header, body aside.sidebar, body main .section-nav {
   position: fixed;
 }
 
@@ -10452,7 +10452,7 @@ template {
 }
 
 #NO-UNDERLINE, body header ul li:hover,
-body header ul li a:hover, body aside.sidebar ul.components li.lt > a:hover {
+body header ul li a:hover, body aside.sidebar ul.components li.lt > a:hover, body main .section-nav .lk {
   text-decoration: none;
 }
 
@@ -10894,4 +10894,23 @@ body main .skippy {
   width: 100%;
   height: 100%;
   padding: 20px;
+  padding-right: 200px;
+}
+
+body main .section-nav {
+  top: 0;
+  right: 0;
+  width: 190px;
+  padding-left: 10px;
+  margin-top: 70px;
+  border-left: solid 1px #d8d8d8;
+}
+
+body main .section-nav .lk {
+  font-size: 0.81rem;
+  color: #D5CAC1;
+}
+
+body main .section-nav .lk:hover {
+  color: #00aeef;
 }
