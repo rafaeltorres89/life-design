@@ -11,8 +11,11 @@ aside.sidebar
 
     .search
     {
+        @extend #ABSOLUTE;
+        width: $percentage;
         padding: 20px;
         border-bottom: solid 1px lighten($metal, 15%);
+        z-index: 1;
     }
 
     @import "../listbar/listbar";

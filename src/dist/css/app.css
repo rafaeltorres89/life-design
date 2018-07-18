@@ -10371,7 +10371,7 @@ template {
   position: relative;
 }
 
-#ABSOLUTE, body aside.sidebar .box-scrool {
+#ABSOLUTE, body aside.sidebar .search, body aside.sidebar .box-scrool {
   position: absolute;
 }
 
@@ -10833,8 +10833,10 @@ body aside.sidebar {
 }
 
 body aside.sidebar .search {
+  width: 100%;
   padding: 20px;
   border-bottom: solid 1px #f4f1ef;
+  z-index: 1;
 }
 
 body aside.sidebar .box-scrool {
