@@ -3,28 +3,36 @@
 html, body
 { @include default; }
 
-p, label, span, a, li
-{
-    @if (lightness($silver) < 30) {
-        color: $light;
-    } @else {
-        color: $silver;
-    }
-}
-
-p strong, a strong, span strong
-{ @extend #BOLD; }
-
-ul
-{
-    @include space;
-    @extend #NO-LIST;
-}
-
-.pull-left      { @extend #LEFT; }
-.pull-right     { @extend #RIGHT; }
-
 body
 {
+    p, label, span, a, li
+    {
+        @if (lightness($silver) < 30) {
+            color: $light;
+        } @else {
+            color: $silver;
+        }
+    }
+
+    p strong, a strong, span strong
+    { @extend #BOLD; }
+
+    ul
+    {
+        @include space;
+        @extend #NO-LIST;
+    }
+
+    .pull-left      { @extend #LEFT; }
+    .pull-right     { @extend #RIGHT; }
+
+    input.form-control
+    {
+        border-color: lighten($silver, 25%);
+        font-size: 0.87rem; 
+        font-family: senticosansCondThin, arial;
+    }
+
     @import "../include/header/header";
+    @import "../include/sidebar/sidebar";
 }

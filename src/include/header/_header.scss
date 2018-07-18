@@ -6,8 +6,9 @@ header
     @extend #FIXED, #NO-MARGIN;
     width: $percentage; height: 50px;
     line-height: 50px;
-    background: $cerulean;
+    background: $lochmara;
     box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+    z-index: 1;
 
     h1.logo
     {

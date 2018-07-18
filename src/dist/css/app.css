@@ -10375,15 +10375,15 @@ template {
   position: absolute;
 }
 
-#FIXED, body header {
+#FIXED, body header, body aside.sidebar {
   position: fixed;
 }
 
-#LEFT, .pull-left, body header h1.logo, body header ul li, body header ul.navbar {
+#LEFT, body .pull-left, body header h1.logo, body header ul li, body header ul.navbar {
   float: left;
 }
 
-#RIGHT, .pull-right, body header ul.vendorbar {
+#RIGHT, body .pull-right, body header ul.vendorbar {
   float: right;
 }
 
@@ -10395,11 +10395,11 @@ template {
   margin: 0 auto;
 }
 
-#HIDE {
+#HIDE, body aside.sidebar ul.components li.lt ul.inter-lt {
   display: none;
 }
 
-#SHOW, body header h1.logo > a {
+#SHOW, body header h1.logo > a, body aside.sidebar ul.components li.lt > a {
   display: block;
 }
 
@@ -10409,13 +10409,13 @@ template {
 
 #NO-MARGIN, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, body header, body header h1.logo, body header h1.logo > a, body header ul.navbar {
+*:before, body ul, body header, body header h1.logo, body header h1.logo > a, body header ul.navbar, body aside.sidebar, body aside.sidebar ul.components {
   margin: 0;
 }
 
 #NO-PADDING, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, body header h1.logo > a, body header ul.navbar {
+*:before, body ul, body header h1.logo > a, body header ul.navbar, body aside.sidebar, body aside.sidebar ul.components {
   padding: 0;
 }
 
@@ -10431,7 +10431,7 @@ template {
   font-weight: normal;
 }
 
-#BOLD, p strong, a strong, span strong {
+#BOLD, body p strong, body a strong, body span strong {
   font-weight: bold;
 }
 
@@ -10452,7 +10452,7 @@ template {
 }
 
 #NO-UNDERLINE, body header ul li:hover,
-body header ul li a:hover {
+body header ul li a:hover, body aside.sidebar ul.components li.lt > a:hover {
   text-decoration: none;
 }
 
@@ -10472,7 +10472,7 @@ body header ul li a:hover {
   cursor: pointer;
 }
 
-#NO-LIST, ul {
+#NO-LIST, body ul {
   list-style: none;
 }
 
@@ -10734,21 +10734,30 @@ html, body {
   height: 100%;
 }
 
-p, label, span, a, li {
-  color: #A5A5A5;
-}
-
 body {
   /* Header
 ----------------------------------------------------------------------- */
+  /* NavBar
+----------------------------------------------------------------------- */
+}
+
+body p, body label, body span, body a, body li {
+  color: #A5A5A5;
+}
+
+body input.form-control {
+  border-color: #e5e5e5;
+  font-size: 0.87rem;
+  font-family: senticosansCondThin, arial;
 }
 
 body header {
   width: 100%;
   height: 50px;
   line-height: 50px;
-  background: #00aeef;
+  background: #0079C2;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  z-index: 1;
   /* NavBar
 ----------------------------------------------------------------------- */
   /* Vendor Bar
@@ -10799,4 +10808,52 @@ body header ul.vendorbar li {
 
 body header ul.vendorbar li:first-child {
   margin-left: 0;
+}
+
+body aside.sidebar {
+  width: 280px;
+  height: 100%;
+  border-right: solid 1px #eae4df;
+  padding-top: 50px;
+  background: #faf9f8;
+}
+
+body aside.sidebar .search {
+  padding: 20px;
+  border-bottom: solid 1px #f4f1ef;
+}
+
+body aside.sidebar ul.components {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+body aside.sidebar ul.components li.lt {
+  width: 100%;
+}
+
+body aside.sidebar ul.components li.lt > a {
+  margin-bottom: 5px;
+  font-family: senticosansThin;
+  width: max-content;
+  border-left: solid 2px transparent;
+  padding-left: 10px;
+}
+
+body aside.sidebar ul.components li.lt > a:hover {
+  color: #0079C2;
+}
+
+body aside.sidebar ul.components li.lt a.active {
+  color: #00aeef;
+  border-color: #00aeef;
+}
+
+body aside.sidebar ul.components li.lt_bd > a {
+  font-family: senticosansRegular;
+}
+
+body aside.sidebar ul.components li.lt ul.inter-lt {
+  padding-left: 10px;
 }

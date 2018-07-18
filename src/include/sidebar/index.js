@@ -1,12 +1,15 @@
 import React from 'react';
 
+import Listbar from '../listbar';
+
 const Sidebar = () => {
     return (
-        <ul>
-            <li>a</li>
-            <li>b</li>
-            <li>c</li>
-        </ul>
+        <aside className="sidebar">
+            <div className="search">
+                <input type="text" className="form-control" value="Search"/>
+            </div>
+            <Listbar />
+        </aside>
     );
 }
 
