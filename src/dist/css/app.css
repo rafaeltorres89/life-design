@@ -10395,11 +10395,11 @@ template {
   margin: 0 auto;
 }
 
-#HIDE {
+#HIDE, body aside.sidebar ul.components li.lt ul.inter-lt {
   display: none;
 }
 
-#SHOW, body header h1.logo > a, body aside.sidebar ul.components li.lt > a, body aside.sidebar ul.components li.lt ul.inter-lt {
+#SHOW, body header h1.logo > a, body aside.sidebar ul.components li.lt > a {
   display: block;
 }
 
