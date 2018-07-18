@@ -22,23 +22,16 @@ ul.components
         > a
         {
             @extend #SHOW;
-            margin-bottom: 5px;
             font-family: senticosansThin;
-            width: max-content;
             border-left: solid 2px transparent;
+            padding: 5px 0;
             padding-left: 10px;
 
             &:hover
             {
                 @extend #NO-UNDERLINE;
-                color: $lochmara;
+                color: darken($metal, 20%);
             }
-        }
-
-        a.active
-        {
-            color: $cerulean;
-            border-color: $cerulean;
         }
 
         &_bd > a { font-family: senticosansRegular; }
@@ -47,6 +40,19 @@ ul.components
         {
             @extend #HIDE;
             padding-left: 10px;
+        }
+
+        &:hover
+        {
+            @extend #ANIMATE;
+
+            a { border-color: $metal; }
+        }
+
+        a.active
+        {
+            color: $cerulean;
+            border-color: $cerulean;
         }
     }
 }

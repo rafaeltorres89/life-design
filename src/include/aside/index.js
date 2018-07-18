@@ -2,7 +2,10 @@ import React from 'react';
 
 const Aside = () => {
     return (
-        <div className="main">s</div>
+        <main>
+            <div className="skippy">
+            </div>
+        </main>
     );
 }
 

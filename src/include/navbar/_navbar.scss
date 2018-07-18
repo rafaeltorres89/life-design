@@ -1,10 +1,27 @@
 /* NavBar
 ----------------------------------------------------------------------- */
 
+// OVERLINK
+@mixin overlink 
+{
+    background: lighten($lochmara, 2%);
+    color: $metal;
+}
+
 ul.navbar
 {
     @extend #LEFT, #NO-MARGIN, #NO-PADDING;
     margin-left: 20px;
 
-    li a { padding: 0 10px; }
+    li a
+    {
+        @extend #SHOW;
+        padding: 0 10px;
+
+        &:hover
+        { @include overlink; }
+    }
+
+    li a.active
+    { @include overlink; }
 }
