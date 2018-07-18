@@ -10,8 +10,8 @@ main
     {
         @extend #OVERFLOW;
         @include default;
-        padding: 20px;
-        padding-right: 200px;
+        padding: 20px 30px;
+        padding-right: 210px;
 
         /* Components */
         @import "../components/button/button";

@@ -10367,11 +10367,13 @@ template {
 ----------------------------------------------------------------------- */
 /* Settings
 ----------------------------------------------------------------------- */
-#RELATIVE {
+#RELATIVE, body main .components .checkbox .cr,
+body main .components .radio .cr {
   position: relative;
 }
 
-#ABSOLUTE, body aside.sidebar .search, body aside.sidebar .box-scrool {
+#ABSOLUTE, body aside.sidebar .search, body aside.sidebar .box-scrool, body main .components .checkbox .cr .cr-icon,
+body main .components .radio .cr .cr-icon {
   position: absolute;
 }
 
@@ -10379,7 +10381,8 @@ template {
   position: fixed;
 }
 
-#LEFT, body .pull-left, body header h1.logo, body header ul li, body header ul.navbar {
+#LEFT, body .pull-left, body header h1.logo, body header ul li, body header ul.navbar, body main .components .checkbox .cr,
+body main .components .radio .cr {
   float: left;
 }
 
@@ -10387,7 +10390,8 @@ template {
   float: right;
 }
 
-#CONTENT {
+#CONTENT, body main .components .checkbox label:after,
+body main .components .radio label:after {
   content: "";
 }
 
@@ -10395,7 +10399,10 @@ template {
   margin: 0 auto;
 }
 
-#HIDE, body aside.sidebar ul.components li.lt ul.inter-lt {
+#HIDE, body aside.sidebar ul.components li.lt ul.inter-lt, body main .components .checkbox label input[type="checkbox"],
+body main .components .checkbox label input[type="radio"],
+body main .components .radio label input[type="checkbox"],
+body main .components .radio label input[type="radio"] {
   display: none;
 }
 
@@ -10403,7 +10410,8 @@ template {
   display: block;
 }
 
-#IN-BLOCK {
+#IN-BLOCK, body main .components .checkbox .cr,
+body main .components .radio .cr {
   display: inline-block;
 }
 
@@ -10807,8 +10815,8 @@ body main {
 body main .components {
   width: 100%;
   height: 100%;
-  padding: 20px;
-  padding-right: 200px;
+  padding: 20px 30px;
+  padding-right: 210px;
   /* Components */
   /* Checkbox
 ----------------------------------------------------------------------- */
@@ -10840,46 +10848,13 @@ body main .components .btn-light {
 
 body main .components .checkbox label:after,
 body main .components .radio label:after {
-  content: '';
   display: table;
   clear: both;
 }
 
-body main .components .checkbox .cr,
-body main .components .radio .cr {
-  position: relative;
-  display: inline-block;
-  border: 1px solid #a9a9a9;
-  border-radius: .25em;
-  width: 1.3em;
-  height: 1.3em;
-  float: left;
-  margin-right: .5em;
-}
-
-body main .components .radio .cr {
-  border-radius: 50%;
-}
-
-body main .components .checkbox .cr .cr-icon,
-body main .components .radio .cr .cr-icon {
-  position: absolute;
-  font-size: .8em;
-  line-height: 0;
-  top: 50%;
-  left: 20%;
-}
-
-body main .components .radio .cr .cr-icon {
-  margin-left: 0.04em;
-}
-
-body main .components .checkbox label input[type="checkbox"],
-body main .components .radio label input[type="radio"] {
-  display: none;
-}
-
 body main .components .checkbox label input[type="checkbox"] + .cr > .cr-icon,
+body main .components .checkbox label input[type="radio"] + .cr > .cr-icon,
+body main .components .radio label input[type="checkbox"] + .cr > .cr-icon,
 body main .components .radio label input[type="radio"] + .cr > .cr-icon {
   transform: scale(3) rotateZ(-20deg);
   opacity: 0;
@@ -10887,14 +10862,43 @@ body main .components .radio label input[type="radio"] + .cr > .cr-icon {
 }
 
 body main .components .checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+body main .components .checkbox label input[type="radio"]:checked + .cr > .cr-icon,
+body main .components .radio label input[type="checkbox"]:checked + .cr > .cr-icon,
 body main .components .radio label input[type="radio"]:checked + .cr > .cr-icon {
   transform: scale(1) rotateZ(0deg);
   opacity: 1;
 }
 
 body main .components .checkbox label input[type="checkbox"]:disabled + .cr,
+body main .components .checkbox label input[type="radio"]:disabled + .cr,
+body main .components .radio label input[type="checkbox"]:disabled + .cr,
 body main .components .radio label input[type="radio"]:disabled + .cr {
   opacity: .5;
+}
+
+body main .components .checkbox .cr,
+body main .components .radio .cr {
+  border: 1px solid #a9a9a9;
+  border-radius: .25em;
+  width: 1.3em;
+  height: 1.3em;
+  margin-right: .5em;
+}
+
+body main .components .checkbox .cr .cr-icon,
+body main .components .radio .cr .cr-icon {
+  font-size: .8em;
+  line-height: 0;
+  top: 50%;
+  left: 20%;
+}
+
+body main .components .radio .cr {
+  border-radius: 50%;
+}
+
+body main .components .radio .cr .cr-icon {
+  margin-left: 0.04em;
 }
 
 body main .section-nav {
@@ -10913,4 +10917,10 @@ body main .section-nav .lk {
 
 body main .section-nav .lk:hover {
   color: #00aeef;
+}
+
+body h2 {
+  font-family: senticosansLight;
+  font-size: 1.87rem;
+  color: #675b5e;
 }
