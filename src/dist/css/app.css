@@ -10447,7 +10447,7 @@ body main .components .radio .cr {
   font-style: italic;
 }
 
-#NO-BORDER {
+#NO-BORDER, body main .components .btn {
   border: none;
 }
 
@@ -10464,7 +10464,7 @@ body header ul li a:hover, body aside.sidebar ul.components li.lt > a:hover, bod
   text-decoration: none;
 }
 
-#UPPERCASE, body main .components .btn {
+#UPPERCASE {
   text-transform: uppercase;
 }
 
@@ -10497,7 +10497,7 @@ body header ul li a:hover, body aside.sidebar ul.components li.lt > a:hover, bod
 }
 
 #ANIMATE, body header h1.logo, body header ul li:hover,
-body header ul li a:hover, body aside.sidebar ul.components li.lt:hover, body main .components .btn-trans {
+body header ul li a:hover, body aside.sidebar ul.components li.lt:hover {
   transition: .3s;
 }
 
@@ -10825,25 +10825,19 @@ body main .components {
 }
 
 body main .components .btn {
-  width: 200px;
-  padding: 15px 0;
+  margin: 0 3px;
 }
 
-body main .components .btn-trans {
-  border: solid 1px;
-  color: white;
-  background: transparent;
-  border-color: white;
+body main .components .btn-primary {
+  background: #0079C2;
 }
 
-body main .components .btn-trans:hover {
-  color: #231F20;
-  background: white;
-  border-color: white;
+body main .components .btn-danger {
+  background: #B8423E;
 }
 
-body main .components .btn-light {
-  background: white;
+body main .components .btn-info {
+  background: #00aeef;
 }
 
 body main .components .checkbox label:after,
@@ -10908,16 +10902,28 @@ body main .components .pages h2 {
   margin-bottom: 10px;
 }
 
-body main .components .pages p.info-page {
+body main .components .pages p {
   font-family: senticosansThin;
+  color: #675b5e;
+}
+
+body main .components .pages p.info-page {
   font-size: 1.12rem;
+  color: #a69b9e;
 }
 
 body main .components .pages h3 {
   font-family: senticosansRegular;
   font-size: 1.25rem;
-  margin: 20px 0;
+  margin: 30px 0 5px;
   color: #977c66;
+}
+
+body main .components .pages .bd-example {
+  padding: 20px;
+  margin: 20px 0;
+  background: #faf9f8;
+  border: solid 1px #f4f1ef;
 }
 
 body main .section-nav {
@@ -10936,4 +10942,9 @@ body main .section-nav .lk {
 
 body main .section-nav .lk:hover {
   color: #00aeef;
+}
+
+body .flex-container {
+  display: flex;
+  justify-content: center;
 }

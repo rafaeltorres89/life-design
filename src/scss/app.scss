@@ -41,4 +41,10 @@ body
     @import "../include/sidebar/sidebar";
 
     @import "../include/aside/aside";
+
+    .flex-container
+    {
+        display: flex;
+        justify-content: center;
+    }
 }
