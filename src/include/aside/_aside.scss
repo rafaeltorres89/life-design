@@ -16,6 +16,31 @@ main
         /* Components */
         @import "../components/button/button";
         @import "../components/checkbox/checkbox";
+
+        .pages
+        {
+            h2
+            {
+                font-family: senticosansLight;
+                font-size: 1.87rem;
+                color: lighten($dark, 25%);
+                margin-bottom: 10px;
+            }
+
+            p.info-page
+            {
+                font-family: senticosansThin;
+                font-size: 1.12rem;
+            }
+
+            h3
+            {
+                font-family: senticosansRegular;
+                font-size: 1.25rem;
+                margin: 20px 0;
+                color: darken($metal, 30%);
+            }
+        }
     }
 
     .section-nav

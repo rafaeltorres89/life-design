@@ -10901,6 +10901,25 @@ body main .components .radio .cr .cr-icon {
   margin-left: 0.04em;
 }
 
+body main .components .pages h2 {
+  font-family: senticosansLight;
+  font-size: 1.87rem;
+  color: #675b5e;
+  margin-bottom: 10px;
+}
+
+body main .components .pages p.info-page {
+  font-family: senticosansThin;
+  font-size: 1.12rem;
+}
+
+body main .components .pages h3 {
+  font-family: senticosansRegular;
+  font-size: 1.25rem;
+  margin: 20px 0;
+  color: #977c66;
+}
+
 body main .section-nav {
   top: 0;
   right: 0;
@@ -10917,10 +10936,4 @@ body main .section-nav .lk {
 
 body main .section-nav .lk:hover {
   color: #00aeef;
-}
-
-body h2 {
-  font-family: senticosansLight;
-  font-size: 1.87rem;
-  color: #675b5e;
 }
