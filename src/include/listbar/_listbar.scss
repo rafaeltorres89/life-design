@@ -1,0 +1,52 @@
+/* Sidebar
+----------------------------------------------------------------------- */
+
+.box-scrool
+{
+    @include default;
+    @extend #ABSOLUTE;
+    top: 0; 
+    padding-top: 124px;
+}
+
+ul.components
+{
+    @extend #OVERFLOW;
+    @include default;
+    padding: 20px;
+
+    li.lt
+    {
+        width: $percentage;
+
+        > a
+        {
+            @extend #SHOW;
+            margin-bottom: 5px;
+            font-family: senticosansThin;
+            width: max-content;
+            border-left: solid 2px transparent;
+            padding-left: 10px;
+
+            &:hover
+            {
+                @extend #NO-UNDERLINE;
+                color: $lochmara;
+            }
+        }
+
+        a.active
+        {
+            color: $cerulean;
+            border-color: $cerulean;
+        }
+
+        &_bd > a { font-family: senticosansRegular; }
+
+        ul.inter-lt
+        {
+            @extend #SHOW;
+            padding-left: 10px;
+        }
+    }
+}

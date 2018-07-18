@@ -10371,7 +10371,7 @@ template {
   position: relative;
 }
 
-#ABSOLUTE {
+#ABSOLUTE, body aside.sidebar .box-scrool {
   position: absolute;
 }
 
@@ -10395,11 +10395,11 @@ template {
   margin: 0 auto;
 }
 
-#HIDE, body aside.sidebar ul.components li.lt ul.inter-lt {
+#HIDE {
   display: none;
 }
 
-#SHOW, body header h1.logo > a, body aside.sidebar ul.components li.lt > a {
+#SHOW, body header h1.logo > a, body aside.sidebar ul.components li.lt > a, body aside.sidebar ul.components li.lt ul.inter-lt {
   display: block;
 }
 
@@ -10409,13 +10409,13 @@ template {
 
 #NO-MARGIN, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, body ul, body header, body header h1.logo, body header h1.logo > a, body header ul.navbar, body aside.sidebar, body aside.sidebar ul.components {
+*:before, #root, .content, body ul, body header, body header h1.logo, body header h1.logo > a, body header ul.navbar, body aside.sidebar, body aside.sidebar .box-scrool, body aside.sidebar ul.components, body .main {
   margin: 0;
 }
 
 #NO-PADDING, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, body ul, body header h1.logo > a, body header ul.navbar, body aside.sidebar, body aside.sidebar ul.components {
+*:before, #root, .content, body ul, body header h1.logo > a, body header ul.navbar, body aside.sidebar, body aside.sidebar .box-scrool, body aside.sidebar ul.components, body .main {
   padding: 0;
 }
 
@@ -10480,11 +10480,11 @@ body header ul li a:hover, body aside.sidebar ul.components li.lt > a:hover {
   border-radius: 50%;
 }
 
-#OVERFLOW {
+#OVERFLOW, body aside.sidebar ul.components {
   overflow: auto;
 }
 
-#HIDDEN {
+#HIDDEN, html, body, #root, .content {
   overflow: hidden;
 }
 
@@ -10729,7 +10729,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   box-sizing: border-box;
 }
 
-html, body {
+html, body, #root, .content {
   width: 100%;
   height: 100%;
 }
@@ -10737,7 +10737,9 @@ html, body {
 body {
   /* Header
 ----------------------------------------------------------------------- */
-  /* NavBar
+  /* Sidebar
+----------------------------------------------------------------------- */
+  /* Aside
 ----------------------------------------------------------------------- */
 }
 
@@ -10816,11 +10818,20 @@ body aside.sidebar {
   border-right: solid 1px #eae4df;
   padding-top: 50px;
   background: #faf9f8;
+  /* Sidebar
+----------------------------------------------------------------------- */
 }
 
 body aside.sidebar .search {
   padding: 20px;
   border-bottom: solid 1px #f4f1ef;
+}
+
+body aside.sidebar .box-scrool {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  padding-top: 124px;
 }
 
 body aside.sidebar ul.components {
@@ -10856,4 +10867,10 @@ body aside.sidebar ul.components li.lt_bd > a {
 
 body aside.sidebar ul.components li.lt ul.inter-lt {
   padding-left: 10px;
+}
+
+body .main {
+  width: 100%;
+  height: 100%;
+  padding: 50px 0 0 280px;
 }

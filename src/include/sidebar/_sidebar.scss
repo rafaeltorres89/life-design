@@ -1,4 +1,4 @@
-/* NavBar
+/* Sidebar
 ----------------------------------------------------------------------- */
 
 aside.sidebar
@@ -15,44 +15,5 @@ aside.sidebar
         border-bottom: solid 1px lighten($metal, 15%);
     }
 
-    ul.components
-    {
-        @include default;
-        padding: 20px;
-
-        li.lt
-        {
-            width: $percentage;
-
-            > a
-            {
-                @extend #SHOW;
-                margin-bottom: 5px;
-                font-family: senticosansThin;
-                width: max-content;
-                border-left: solid 2px transparent;
-                padding-left: 10px;
-
-                &:hover
-                {
-                    @extend #NO-UNDERLINE;
-                    color: $lochmara;
-                }
-            }
-
-            a.active
-            {
-                color: $cerulean;
-                border-color: $cerulean;
-            }
-
-            &_bd > a { font-family: senticosansRegular; }
-
-            ul.inter-lt
-            {
-                @extend #HIDE;
-                padding-left: 10px;
-            }
-        }
-    }
+    @import "../listbar/listbar";
 }

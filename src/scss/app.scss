@@ -1,7 +1,10 @@
 @import "general";
 
-html, body
-{ @include default; }
+html, body, #root, .content
+{
+    @include default;
+    @extend #HIDDEN;
+}
 
 body
 {
@@ -34,5 +37,8 @@ body
     }
 
     @import "../include/header/header";
+    
     @import "../include/sidebar/sidebar";
+
+    @import "../include/aside/aside";
 }
