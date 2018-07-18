@@ -1,3 +1,67 @@
 /* Checkbox
 ----------------------------------------------------------------------- */
 
+.checkbox, 
+.radio
+{
+    label
+    {
+        &:after
+        {
+            @extend #CONTENT;
+            display: table;
+            clear: both;
+        }
+
+        input[type="checkbox"],
+        input[type="radio"]
+        { @extend #HIDE; }
+
+        input[type="checkbox"] + .cr > .cr-icon,
+        input[type="radio"] + .cr > .cr-icon
+        {
+            transform: scale(3) rotateZ(-20deg);
+            opacity: 0;
+            transition: all .3s ease-in;
+        }
+
+        input[type="checkbox"]:checked + .cr > .cr-icon,
+        input[type="radio"]:checked + .cr > .cr-icon
+        {
+            transform: scale(1) rotateZ(0deg);
+            opacity: 1;
+        }
+
+        input[type="checkbox"]:disabled + .cr,
+        input[type="radio"]:disabled + .cr
+        { opacity: .5; }
+    }
+
+    .cr
+    {
+        @extend #RELATIVE, #IN-BLOCK, #LEFT;
+        border: 1px solid #a9a9a9;
+        border-radius: .25em;
+        width: 1.3em;   height: 1.3em;
+        margin-right: .5em;
+
+        .cr-icon
+        {
+            @extend #ABSOLUTE;
+            font-size: .8em;
+            line-height: 0;
+            top: ($percentage/2);   left: ($percentage/5);
+        }
+    }
+}
+
+.radio
+{
+    .cr 
+    {
+        border-radius: ($percentage/2);
+
+        .cr-icon
+        { margin-left: 0.04em; }
+    }
+}
