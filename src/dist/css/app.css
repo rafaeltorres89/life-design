@@ -10409,13 +10409,13 @@ template {
 
 #NO-MARGIN, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, #root, .content, body ul, body header, body header h1.logo, body header h1.logo > a, body header ul.navbar, body aside.sidebar, body aside.sidebar .box-scrool, body aside.sidebar ul.components, body main, body main .skippy {
+*:before, #root, .content, body ul, body header, body header h1.logo, body header h1.logo > a, body header ul.navbar, body aside.sidebar, body aside.sidebar .box-scrool, body aside.sidebar ul.components, body main, body main .components {
   margin: 0;
 }
 
 #NO-PADDING, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, #root, .content, body ul, body header h1.logo > a, body header ul.navbar, body aside.sidebar, body aside.sidebar .box-scrool, body aside.sidebar ul.components, body main, body main .skippy {
+*:before, #root, .content, body ul, body header h1.logo > a, body header ul.navbar, body aside.sidebar, body aside.sidebar .box-scrool, body aside.sidebar ul.components, body main, body main .components {
   padding: 0;
 }
 
@@ -10456,7 +10456,7 @@ body header ul li a:hover, body aside.sidebar ul.components li.lt > a:hover, bod
   text-decoration: none;
 }
 
-#UPPERCASE, .btn {
+#UPPERCASE, body main .components .btn {
   text-transform: uppercase;
 }
 
@@ -10480,7 +10480,7 @@ body header ul li a:hover, body aside.sidebar ul.components li.lt > a:hover, bod
   border-radius: 50%;
 }
 
-#OVERFLOW, body aside.sidebar ul.components, body main .skippy {
+#OVERFLOW, body aside.sidebar ul.components, body main .components {
   overflow: auto;
 }
 
@@ -10488,8 +10488,8 @@ body header ul li a:hover, body aside.sidebar ul.components li.lt > a:hover, bod
   overflow: hidden;
 }
 
-#ANIMATE, .btn-trans, body header h1.logo, body header ul li:hover,
-body header ul li a:hover, body aside.sidebar ul.components li.lt:hover {
+#ANIMATE, body header h1.logo, body header ul li:hover,
+body header ul li a:hover, body aside.sidebar ul.components li.lt:hover, body main .components .btn-trans {
   transition: .3s;
 }
 
@@ -10620,92 +10620,6 @@ body header ul li a:hover, body aside.sidebar ul.components li.lt:hover {
 
 /* Animate
 ----------------------------------------------------------------------- */
-/* Components */
-/* Checkbox
------------------------------------------------------------------------ */
-.checkbox label:after,
-.radio label:after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
-.checkbox .cr,
-.radio .cr {
-  position: relative;
-  display: inline-block;
-  border: 1px solid #a9a9a9;
-  border-radius: .25em;
-  width: 1.3em;
-  height: 1.3em;
-  float: left;
-  margin-right: .5em;
-}
-
-.radio .cr {
-  border-radius: 50%;
-}
-
-.checkbox .cr .cr-icon,
-.radio .cr .cr-icon {
-  position: absolute;
-  font-size: .8em;
-  line-height: 0;
-  top: 50%;
-  left: 20%;
-}
-
-.radio .cr .cr-icon {
-  margin-left: 0.04em;
-}
-
-.checkbox label input[type="checkbox"],
-.radio label input[type="radio"] {
-  display: none;
-}
-
-.checkbox label input[type="checkbox"] + .cr > .cr-icon,
-.radio label input[type="radio"] + .cr > .cr-icon {
-  transform: scale(3) rotateZ(-20deg);
-  opacity: 0;
-  transition: all .3s ease-in;
-}
-
-.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
-.radio label input[type="radio"]:checked + .cr > .cr-icon {
-  transform: scale(1) rotateZ(0deg);
-  opacity: 1;
-}
-
-.checkbox label input[type="checkbox"]:disabled + .cr,
-.radio label input[type="radio"]:disabled + .cr {
-  opacity: .5;
-}
-
-/* Checkbox
------------------------------------------------------------------------ */
-.btn {
-  width: 200px;
-  padding: 15px 0;
-}
-
-.btn-trans {
-  border: solid 1px;
-  color: white;
-  background: transparent;
-  border-color: white;
-}
-
-.btn-trans:hover {
-  color: #231F20;
-  background: white;
-  border-color: white;
-}
-
-.btn-light {
-  background: white;
-}
-
 /* Core */
 /* Normalize
 ----------------------------------------------------------------------- */
@@ -10890,11 +10804,97 @@ body main {
   padding: 50px 0 0 280px;
 }
 
-body main .skippy {
+body main .components {
   width: 100%;
   height: 100%;
   padding: 20px;
   padding-right: 200px;
+  /* Components */
+  /* Checkbox
+----------------------------------------------------------------------- */
+  /* Checkbox
+----------------------------------------------------------------------- */
+}
+
+body main .components .btn {
+  width: 200px;
+  padding: 15px 0;
+}
+
+body main .components .btn-trans {
+  border: solid 1px;
+  color: white;
+  background: transparent;
+  border-color: white;
+}
+
+body main .components .btn-trans:hover {
+  color: #231F20;
+  background: white;
+  border-color: white;
+}
+
+body main .components .btn-light {
+  background: white;
+}
+
+body main .components .checkbox label:after,
+body main .components .radio label:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+body main .components .checkbox .cr,
+body main .components .radio .cr {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #a9a9a9;
+  border-radius: .25em;
+  width: 1.3em;
+  height: 1.3em;
+  float: left;
+  margin-right: .5em;
+}
+
+body main .components .radio .cr {
+  border-radius: 50%;
+}
+
+body main .components .checkbox .cr .cr-icon,
+body main .components .radio .cr .cr-icon {
+  position: absolute;
+  font-size: .8em;
+  line-height: 0;
+  top: 50%;
+  left: 20%;
+}
+
+body main .components .radio .cr .cr-icon {
+  margin-left: 0.04em;
+}
+
+body main .components .checkbox label input[type="checkbox"],
+body main .components .radio label input[type="radio"] {
+  display: none;
+}
+
+body main .components .checkbox label input[type="checkbox"] + .cr > .cr-icon,
+body main .components .radio label input[type="radio"] + .cr > .cr-icon {
+  transform: scale(3) rotateZ(-20deg);
+  opacity: 0;
+  transition: all .3s ease-in;
+}
+
+body main .components .checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+body main .components .radio label input[type="radio"]:checked + .cr > .cr-icon {
+  transform: scale(1) rotateZ(0deg);
+  opacity: 1;
+}
+
+body main .components .checkbox label input[type="checkbox"]:disabled + .cr,
+body main .components .radio label input[type="radio"]:disabled + .cr {
+  opacity: .5;
 }
 
 body main .section-nav {
