@@ -1,9 +1,12 @@
 import React from 'react';
 
+import Button from '../components/button';
+
 const Aside = () => {
     return (
         <main>
             <div className="components">
+                <Button />
             </div>
             <ul className="section-nav">
                 <li><a href="" title="" className="lk">List 1</a></li>
