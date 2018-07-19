@@ -51,8 +51,9 @@ main
             {
                 padding: 20px;
                 margin: 20px 0;
-                background: lighten($metal, 18%);
+                background: $light;
                 border: solid 1px lighten($metal, 15%);
+                background: lighten($metal, 20%)
             }
         }
     }

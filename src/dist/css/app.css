@@ -10840,6 +10840,18 @@ body main .components .btn-info {
   background: #00aeef;
 }
 
+body main .components .btn-warning {
+  background: #E6B627;
+}
+
+body main .components .btn-success {
+  background: #49AF57;
+}
+
+body main .components .btn-default {
+  background: #e5e5e5;
+}
+
 body main .components .checkbox label:after,
 body main .components .radio label:after {
   display: table;
@@ -10922,8 +10934,9 @@ body main .components .pages h3 {
 body main .components .pages .bd-example {
   padding: 20px;
   margin: 20px 0;
-  background: #faf9f8;
+  background: white;
   border: solid 1px #f4f1ef;
+  background: #fefefe;
 }
 
 body main .section-nav {
