@@ -17,44 +17,41 @@ main
         @import "../components/button/button";
         @import "../components/checkbox/checkbox";
 
-        .pages
+        h2
         {
-            h2
-            {
-                font-family: senticosansLight;
-                font-size: 1.87rem;
-                color: lighten($dark, 25%);
-                margin-bottom: 10px;
-            }
+            font-family: senticosansLight;
+            font-size: 1.87rem;
+            color: lighten($dark, 25%);
+            margin-bottom: 10px;
+        }
 
-            p
-            {
-                font-family: senticosansThin;
-                color: lighten($dark, 25%);
-            }
+        p
+        {
+            font-family: senticosansThin;
+            color: lighten($dark, 25%);
+        }
 
-            p.info-page
-            {
-                font-size: 1.12rem;
-                color: lighten($dark, 50%);
-            }
+        p.info-page
+        {
+            font-size: 1.12rem;
+            color: lighten($dark, 50%);
+        }
 
-            h3
-            {
-                font-family: senticosansRegular;
-                font-size: 1.25rem;
-                margin: 30px 0 5px;
-                color: darken($metal, 30%);
-            }
+        h3
+        {
+            font-family: senticosansRegular;
+            font-size: 1.25rem;
+            margin: 30px 0 5px;
+            color: darken($metal, 30%);
+        }
 
-            .bd-example
-            {
-                padding: 20px;
-                margin: 20px 0;
-                background: $light;
-                border: solid 1px lighten($metal, 15%);
-                background: lighten($metal, 20%)
-            }
+        .bd-example
+        {
+            padding: 20px;
+            margin: 20px 0;
+            background: $light;
+            border: solid 1px lighten($metal, 15%);
+            background: lighten($metal, 20%)
         }
     }
 
