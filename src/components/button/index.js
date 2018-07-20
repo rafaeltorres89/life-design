@@ -170,6 +170,7 @@ const Button = () => {
                     </code>
                 </pre>
             </figure>
+            <p>problema com a conexão</p>
         </div>
     );
 }
