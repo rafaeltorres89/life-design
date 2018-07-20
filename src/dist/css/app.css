@@ -10399,19 +10399,19 @@ body main .components .radio label:after {
   margin: 0 auto;
 }
 
-#HIDE, body aside.sidebar ul.components li.lt ul.inter-lt, body main .components .checkbox label input[type="checkbox"],
+#HIDE, body main .components .checkbox label input[type="checkbox"],
 body main .components .checkbox label input[type="radio"],
 body main .components .radio label input[type="checkbox"],
 body main .components .radio label input[type="radio"] {
   display: none;
 }
 
-#SHOW, body header h1.logo > a, body header ul.navbar li a, body aside.sidebar ul.components li.lt > a, body main .components figure pre code {
+#SHOW, body header h1.logo > a, body header ul.navbar li a, body aside.sidebar ul.components li.lt > a, body aside.sidebar ul.components li.lt ul.inter-lt, body main .components .highlight pre code {
   display: block;
 }
 
 #IN-BLOCK, body main .components .checkbox .cr,
-body main .components .radio .cr {
+body main .components .radio .cr, body main .components .highlight pre code span {
   display: inline-block;
 }
 
@@ -10447,7 +10447,7 @@ body main .components .radio .cr {
   font-style: italic;
 }
 
-#NO-BORDER, body main .components .btn {
+#NO-BORDER, body aside.sidebar ul.components li.lt ul.inter-lt li.lt a.lk, body main .components .btn {
   border: none;
 }
 
@@ -10492,7 +10492,7 @@ body header ul li a:hover, body aside.sidebar ul.components li.lt > a:hover, bod
   overflow: auto;
 }
 
-#HIDDEN, html, body, #root, .content, body main .components figure pre {
+#HIDDEN, html, body, #root, .content, body main .components .highlight pre {
   overflow: hidden;
 }
 
@@ -10501,7 +10501,7 @@ body header ul li a:hover, body aside.sidebar ul.components li.lt:hover {
   transition: .3s;
 }
 
-#SPACING, body main .components figure pre code span {
+#SPACING, body main .components .highlight pre code span {
   letter-spacing: 2px;
 }
 
@@ -10791,6 +10791,7 @@ body aside.sidebar ul.components li.lt > a {
 
 body aside.sidebar ul.components li.lt > a:hover {
   color: #ac9684;
+  background: #f6f4f2;
 }
 
 body aside.sidebar ul.components li.lt_bd > a {
@@ -10808,6 +10809,7 @@ body aside.sidebar ul.components li.lt:hover a {
 body aside.sidebar ul.components li.lt a.active {
   color: #00aeef;
   border-color: #00aeef;
+  background: #f6f4f2;
 }
 
 body main {
@@ -10947,32 +10949,32 @@ body main .components .bd-example {
   background: #fefefe;
 }
 
-body main .components figure {
+body main .components .highlight {
   background: #f4f1ef;
   padding: 30px 20px;
 }
 
-body main .components figure pre code {
+body main .components .highlight pre code {
   width: 100%;
 }
 
-body main .components figure pre code span {
+body main .components .highlight pre code span {
   font-family: senticosansThin;
 }
 
-body main .components figure pre code .tg {
+body main .components .highlight pre code .tg {
   color: #0079C2;
 }
 
-body main .components figure pre code .at {
+body main .components .highlight pre code .at {
   color: #00aeef;
 }
 
-body main .components figure pre code .vl {
+body main .components .highlight pre code .vl {
   color: #B8423E;
 }
 
-body main .components figure pre code .if {
+body main .components .highlight pre code .if {
   color: #231F20;
 }
 

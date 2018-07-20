@@ -17,78 +17,78 @@ const Button = () => {
 
                 <button type="button" class="btn btn-link">Link</button>
             </div>
-            <figure>
+            <figure class="highlight">
                 <pre>
                     <code>
-                        <span className="tg">xbutton </span>
+                        <span className="tg">&lt;button </span>
                         <span className="at">type</span>
-                        <span className="vl">="button" </span>
-                        <span className="at">class</span>
+                        <span className="vl">="button"</span>
+                        <span className="at"> class</span>
                         <span className="vl">="btn btn-primary"</span>
-                        <span className="tg">x</span>
+                        <span className="tg">&gt;</span>
                         <span className="if">Primary</span>
-                        <span className="tg">xbuttonx</span>
+                        <span className="tg">&lt;button&gt;</span>
                     </code>
                     <code>
-                        <span className="tg">xbutton </span>
+                        <span className="tg">&lt;button </span>
                         <span className="at">type</span>
-                        <span className="vl">="button" </span>
-                        <span className="at">class</span>
+                        <span className="vl">="button"</span>
+                        <span className="at"> class</span>
                         <span className="vl">="btn btn-default"</span>
-                        <span className="tg">x</span>
+                        <span className="tg">&gt;</span>
                         <span className="if">Default</span>
-                        <span className="tg">xbuttonx</span>
+                        <span className="tg">&lt;button&gt;</span>
                     </code>
                     <code>
-                        <span className="tg">xbutton </span>
+                        <span className="tg">&lt;button </span>
                         <span className="at">type</span>
-                        <span className="vl">="button" </span>
-                        <span className="at">class</span>
+                        <span className="vl">="button"</span>
+                        <span className="at"> class</span>
                         <span className="vl">="btn btn-success"</span>
-                        <span className="tg">x</span>
+                        <span className="tg">&gt;</span>
                         <span className="if">Success</span>
-                        <span className="tg">xbuttonx</span>
+                        <span className="tg">&lt;button&gt;</span>
                     </code>
                     <code>
-                        <span className="tg">xbutton </span>
+                        <span className="tg">&lt;button </span>
                         <span className="at">type</span>
-                        <span className="vl">="button" </span>
-                        <span className="at">class</span>
+                        <span className="vl">="button"</span>
+                        <span className="at"> class</span>
                         <span className="vl">="btn btn-danger"</span>
-                        <span className="tg">x</span>
+                        <span className="tg">&gt;</span>
                         <span className="if">Danger</span>
-                        <span className="tg">xbuttonx</span>
+                        <span className="tg">&lt;button&gt;</span>
                     </code>
                     <code>
-                        <span className="tg">xbutton </span>
+                        <span className="tg">&lt;button </span>
                         <span className="at">type</span>
-                        <span className="vl">="button" </span>
-                        <span className="at">class</span>
+                        <span className="vl">="button"</span>
+                        <span className="at"> class</span>
                         <span className="vl">="btn btn-warning"</span>
-                        <span className="tg">x</span>
+                        <span className="tg">&gt;</span>
                         <span className="if">Warning</span>
-                        <span className="tg">xbuttonx</span>
+                        <span className="tg">&lt;button&gt;</span>
                     </code>
                     <code>
-                        <span className="tg">xbutton </span>
+                        <span className="tg">&lt;button </span>
                         <span className="at">type</span>
-                        <span className="vl">="button" </span>
-                        <span className="at">class</span>
+                        <span className="vl">="button"</span>
+                        <span className="at"> class</span>
                         <span className="vl">="btn btn-info"</span>
-                        <span className="tg">x</span>
+                        <span className="tg">&gt;</span>
                         <span className="if">Info</span>
-                        <span className="tg">xbuttonx</span>
+                        <span className="tg">&lt;button&gt;</span>
                     </code>
                     <br/>
                     <code>
-                        <span className="tg">xbutton </span>
+                        <span className="tg">&lt;button </span>
                         <span className="at">type</span>
-                        <span className="vl">="button" </span>
-                        <span className="at">class</span>
+                        <span className="vl">="button"</span>
+                        <span className="at"> class</span>
                         <span className="vl">="btn btn-link"</span>
-                        <span className="tg">x</span>
+                        <span className="tg">&gt;</span>
                         <span className="if">Link</span>
-                        <span className="tg">xbuttonx</span>
+                        <span className="tg">&lt;button&gt;</span>
                     </code>
                 </pre>
             </figure>
@@ -106,67 +106,67 @@ const Button = () => {
                 <button type="button" class="btn btn-outline-warning">Warning</button>
                 <button type="button" class="btn btn-outline-info">Info</button>
             </div>
-            <figure>
+            <figure class="highlight">
                 <pre>
                     <code>
-                        <span className="tg">xbutton </span>
+                        <span className="tg">&lt;button </span>
                         <span className="at">type</span>
-                        <span className="vl">="button" </span>
-                        <span className="at">class</span>
+                        <span className="vl">="button"</span>
+                        <span className="at"> class</span>
                         <span className="vl">="btn btn-outline-primary"</span>
-                        <span className="tg">x</span>
+                        <span className="tg">&gt;</span>
                         <span className="if">Primary</span>
-                        <span className="tg">xbuttonx</span>
+                        <span className="tg">&lt;button&gt;</span>
                     </code>
                     <code>
-                        <span className="tg">xbutton </span>
+                        <span className="tg">&lt;button </span>
                         <span className="at">type</span>
-                        <span className="vl">="button" </span>
-                        <span className="at">class</span>
+                        <span className="vl">="button"</span>
+                        <span className="at"> class</span>
                         <span className="vl">="btn btn-outline-default"</span>
-                        <span className="tg">x</span>
+                        <span className="tg">&gt;</span>
                         <span className="if">Default</span>
-                        <span className="tg">xbuttonx</span>
+                        <span className="tg">&lt;button&gt;</span>
                     </code>
                     <code>
-                        <span className="tg">xbutton </span>
+                        <span className="tg">&lt;button </span>
                         <span className="at">type</span>
-                        <span className="vl">="button" </span>
-                        <span className="at">class</span>
+                        <span className="vl">="button"</span>
+                        <span className="at"> class</span>
                         <span className="vl">="btn btn-outline-success"</span>
-                        <span className="tg">x</span>
+                        <span className="tg">&gt;</span>
                         <span className="if">Success</span>
-                        <span className="tg">xbuttonx</span>
+                        <span className="tg">&lt;button&gt;</span>
                     </code>
                     <code>
-                        <span className="tg">xbutton </span>
+                        <span className="tg">&lt;button </span>
                         <span className="at">type</span>
-                        <span className="vl">="button" </span>
-                        <span className="at">class</span>
+                        <span className="vl">="button"</span>
+                        <span className="at"> class</span>
                         <span className="vl">="btn btn-outline-danger"</span>
-                        <span className="tg">x</span>
+                        <span className="tg">&gt;</span>
                         <span className="if">Danger</span>
-                        <span className="tg">xbuttonx</span>
+                        <span className="tg">&lt;button&gt;</span>
                     </code>
                     <code>
-                        <span className="tg">xbutton </span>
+                        <span className="tg">&lt;button </span>
                         <span className="at">type</span>
-                        <span className="vl">="button" </span>
-                        <span className="at">class</span>
+                        <span className="vl">="button"</span>
+                        <span className="at"> class</span>
                         <span className="vl">="btn btn-outline-warning"</span>
-                        <span className="tg">x</span>
+                        <span className="tg">&gt;</span>
                         <span className="if">Warning</span>
-                        <span className="tg">xbuttonx</span>
+                        <span className="tg">&lt;button&gt;</span>
                     </code>
                     <code>
-                        <span className="tg">xbutton </span>
+                        <span className="tg">&lt;button </span>
                         <span className="at">type</span>
-                        <span className="vl">="button" </span>
-                        <span className="at">class</span>
+                        <span className="vl">="button"</span>
+                        <span className="at"> class</span>
                         <span className="vl">="btn btn-outline-info"</span>
-                        <span className="tg">x</span>
+                        <span className="tg">&gt;</span>
                         <span className="if">Info</span>
-                        <span className="tg">xbuttonx</span>
+                        <span className="tg">&lt;button&gt;</span>
                     </code>
                 </pre>
             </figure>

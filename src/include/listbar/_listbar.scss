@@ -31,6 +31,7 @@ ul.components
             {
                 @extend #NO-UNDERLINE;
                 color: darken($metal, 20%);
+                background: lighten($metal, 16%);
             }
         }
 
@@ -38,21 +39,26 @@ ul.components
 
         ul.inter-lt
         {
-            @extend #HIDE;
+            @extend #SHOW;
             padding-left: 10px;
+
+            li.lt a.lk
+            { @extend #NO-BORDER; }
         }
 
         &:hover
         {
             @extend #ANIMATE;
 
-            a { border-color: $metal; }
+            a
+            { border-color: $metal; }
         }
 
         a.active
         {
             color: $cerulean;
             border-color: $cerulean;
+            background: lighten($metal, 16%);
         }
     }
 }
