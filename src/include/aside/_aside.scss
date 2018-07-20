@@ -45,13 +45,48 @@ main
             color: darken($metal, 30%);
         }
 
+        h5 { margin-bottom: 10px; }
+
         .bd-example
         {
             padding: 20px;
-            margin: 20px 0;
+            margin-top: 20px;
             background: $light;
             border: solid 1px lighten($metal, 15%);
             background: lighten($metal, 20%)
+        }
+        
+        figure
+        {
+            background: lighten($metal, 15%);
+            padding: 30px 20px;
+
+            pre { @extend #HIDDEN; }
+
+            pre code
+            {
+                @extend #SHOW;
+                width: $percentage;
+
+                span
+                {
+                    @extend #SPACING;
+                    font-family: senticosansThin;
+                }
+
+                .tg { color: $lochmara; }
+                .at { color: $cerulean; }
+                .vl { color: $chestnut; }
+                .if { color: $dark; }
+            }
+        }
+
+        .callout
+        {
+            background: lighten($metal, 15%);
+            padding: 20px;
+            border-left: solid 2px $chestnut;
+            margin: 20px 0;
         }
     }
 

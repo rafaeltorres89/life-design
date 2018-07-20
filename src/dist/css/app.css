@@ -10406,7 +10406,7 @@ body main .components .radio label input[type="radio"] {
   display: none;
 }
 
-#SHOW, body header h1.logo > a, body header ul.navbar li a, body aside.sidebar ul.components li.lt > a {
+#SHOW, body header h1.logo > a, body header ul.navbar li a, body aside.sidebar ul.components li.lt > a, body main .components figure pre code {
   display: block;
 }
 
@@ -10492,13 +10492,17 @@ body header ul li a:hover, body aside.sidebar ul.components li.lt > a:hover, bod
   overflow: auto;
 }
 
-#HIDDEN, html, body, #root, .content {
+#HIDDEN, html, body, #root, .content, body main .components figure pre {
   overflow: hidden;
 }
 
 #ANIMATE, body header h1.logo, body header ul li:hover,
 body header ul li a:hover, body aside.sidebar ul.components li.lt:hover {
   transition: .3s;
+}
+
+#SPACING, body main .components figure pre code span {
+  letter-spacing: 2px;
 }
 
 /* Mixins
@@ -10931,12 +10935,52 @@ body main .components h3 {
   color: #977c66;
 }
 
+body main .components h5 {
+  margin-bottom: 10px;
+}
+
 body main .components .bd-example {
   padding: 20px;
-  margin: 20px 0;
+  margin-top: 20px;
   background: white;
   border: solid 1px #f4f1ef;
   background: #fefefe;
+}
+
+body main .components figure {
+  background: #f4f1ef;
+  padding: 30px 20px;
+}
+
+body main .components figure pre code {
+  width: 100%;
+}
+
+body main .components figure pre code span {
+  font-family: senticosansThin;
+}
+
+body main .components figure pre code .tg {
+  color: #0079C2;
+}
+
+body main .components figure pre code .at {
+  color: #00aeef;
+}
+
+body main .components figure pre code .vl {
+  color: #B8423E;
+}
+
+body main .components figure pre code .if {
+  color: #231F20;
+}
+
+body main .components .callout {
+  background: #f4f1ef;
+  padding: 20px;
+  border-left: solid 2px #B8423E;
+  margin: 20px 0;
 }
 
 body main .section-nav {
