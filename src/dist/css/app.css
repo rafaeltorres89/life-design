@@ -10837,6 +10837,10 @@ body main .components .breadcrumb {
   background: #f6f4f2;
 }
 
+body main .components .breadcrumb li.breadcrumb-item::before {
+  color: #A5A5A5;
+}
+
 body main .components .breadcrumb li.breadcrumb-item,
 body main .components .breadcrumb li.breadcrumb-item a {
   font-family: senticosansThin;

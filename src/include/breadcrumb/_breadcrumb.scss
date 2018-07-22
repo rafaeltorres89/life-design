@@ -5,6 +5,9 @@
 {
     background: lighten($metal, 16%);
 
+    li.breadcrumb-item::before
+    { color: $silver; }
+
     li.breadcrumb-item,
     li.breadcrumb-item a
     {
