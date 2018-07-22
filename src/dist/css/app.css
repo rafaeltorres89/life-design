@@ -10399,14 +10399,14 @@ body main .components .radio label:after {
   margin: 0 auto;
 }
 
-#HIDE, body main .components .checkbox label input[type="checkbox"],
+#HIDE, body aside.sidebar ul.components li.lt ul.inter-lt, body main .components .checkbox label input[type="checkbox"],
 body main .components .checkbox label input[type="radio"],
 body main .components .radio label input[type="checkbox"],
 body main .components .radio label input[type="radio"] {
   display: none;
 }
 
-#SHOW, body header h1.logo > a, body header ul.navbar li a, body aside.sidebar ul.components li.lt > a, body aside.sidebar ul.components li.lt ul.inter-lt, body main .components .highlight pre code {
+#SHOW, body header h1.logo > a, body header ul.navbar li a, body aside.sidebar ul.components li.lt > a, body main .components .highlight pre code {
   display: block;
 }
 
