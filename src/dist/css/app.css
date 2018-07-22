@@ -10857,6 +10857,7 @@ body main .components .breadcrumb li.breadcrumb-item.active {
 
 body main .components .btn {
   margin: 0 3px;
+  font-size: 0.87rem;
 }
 
 body main .components .btn-primary {
