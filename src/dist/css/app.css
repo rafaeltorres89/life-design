@@ -10840,6 +10840,7 @@ body main .components .breadcrumb {
 body main .components .breadcrumb li.breadcrumb-item,
 body main .components .breadcrumb li.breadcrumb-item a {
   font-family: senticosansThin;
+  font-size: 0.87rem;
 }
 
 body main .components .breadcrumb li.breadcrumb-item a {

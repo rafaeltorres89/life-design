@@ -7,7 +7,10 @@
 
     li.breadcrumb-item,
     li.breadcrumb-item a
-    { font-family: senticosansThin; }
+    {
+        font-family: senticosansThin;
+        font-size: 0.87rem;
+    }
 
     li.breadcrumb-item a
     { color: $cerulean; }
