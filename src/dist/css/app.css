@@ -10417,13 +10417,13 @@ body main .components .radio .cr, body main .components .highlight pre code span
 
 #NO-MARGIN, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, #root, .content, body ul, body header, body header h1.logo, body header h1.logo > a, body header ul.navbar, body aside.sidebar, body aside.sidebar .box-scrool, body aside.sidebar ul.components, body main, body main .components {
+*:before, #root, .content, body ul, body header, body header h1.logo, body header h1.logo > a, body header ul.navbar, body aside.sidebar, body aside.sidebar .box-scrool, body aside.sidebar ul.components, body main, body main .components, body main .components .bd-example .txt-font {
   margin: 0;
 }
 
 #NO-PADDING, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, #root, .content, body ul, body header h1.logo > a, body header ul.navbar, body aside.sidebar, body aside.sidebar .box-scrool, body aside.sidebar ul.components, body main, body main .components {
+*:before, #root, .content, body ul, body header h1.logo > a, body header ul.navbar, body aside.sidebar, body aside.sidebar .box-scrool, body aside.sidebar ul.components, body main, body main .components, body main .components .bd-example .txt-font {
   padding: 0;
 }
 
@@ -10828,6 +10828,8 @@ body main .components {
 ----------------------------------------------------------------------- */
   /* Checkbox
 ----------------------------------------------------------------------- */
+  /* Typography
+----------------------------------------------------------------------- */
 }
 
 body main .components .breadcrumb {
@@ -10936,6 +10938,36 @@ body main .components .radio .cr .cr-icon {
   margin-left: 0.04em;
 }
 
+body main .components .bd-example .txt-font {
+  font-family: senticosansThin;
+  color: #231F20;
+  padding: 5px 0;
+}
+
+body main .components .bd-example h1 {
+  font-size: 2.5rem;
+}
+
+body main .components .bd-example h2 {
+  font-size: 2rem;
+}
+
+body main .components .bd-example h3 {
+  font-size: 1.75rem;
+}
+
+body main .components .bd-example h4 {
+  font-size: 1.5rem;
+}
+
+body main .components .bd-example h5 {
+  font-size: 1.25rem;
+}
+
+body main .components .bd-example h6 {
+  font-size: 1rem;
+}
+
 body main .components h2 {
   font-family: senticosansLight;
   font-size: 1.87rem;
@@ -11006,6 +11038,15 @@ body main .components .callout {
   padding: 20px;
   border-left: solid 2px #B8423E;
   margin: 20px 0;
+}
+
+body main .components ol {
+  padding: 20px 0 20px 40px;
+  list-style: square;
+}
+
+body main .components ol li {
+  font-family: senticosansThin;
 }
 
 body main .section-nav {

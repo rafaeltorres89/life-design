@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Button from '../../components/button';
+import Typography from '../../components/typography';
 
 const Aside = () => {
     return (
         <main>
-            <Button />
+            <Typography />
         </main>
     );
 }
