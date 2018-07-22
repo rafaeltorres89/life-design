@@ -10943,7 +10943,7 @@ body main .components h2 {
   font-family: senticosansLight;
   font-size: 1.87rem;
   color: #675b5e;
-  margin-bottom: 10px;
+  margin: 30px 0 10px;
 }
 
 body main .components p {
@@ -10959,7 +10959,7 @@ body main .components p.info-page {
 body main .components h3 {
   font-family: senticosansRegular;
   font-size: 1.25rem;
-  margin: 30px 0 5px;
+  margin: 40px 0 5px;
   color: #977c66;
 }
 
