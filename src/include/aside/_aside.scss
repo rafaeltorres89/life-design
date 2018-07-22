@@ -13,8 +13,26 @@ main
         padding: 20px 30px;
         padding-right: 200px;
 
-        /* Components */
-        @import "../breadcrumb/breadcrumb";
+        .breadcrumb
+        {
+            background: lighten($metal, 16%);
+
+            li.breadcrumb-item::before
+            { color: $silver; }
+
+            li.breadcrumb-item,
+            li.breadcrumb-item a
+            {
+                font-family: senticosansThin;
+                font-size: 0.87rem;
+            }
+
+            li.breadcrumb-item a
+            { color: $cerulean; }
+
+            li.breadcrumb-item.active
+            { color: darken($metal, 20%); }
+        }
 
         /* Components */
         @import "../components/button/button";

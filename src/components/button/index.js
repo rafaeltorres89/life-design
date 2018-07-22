@@ -1,6 +1,7 @@
 import React from 'react';
 
-import Breadcrumb from '../../include/breadcrumb';
+import Breadcrumb from './breadcrumb';
+import Anchor from './anchor';
 
 const Button = () => {
     return (
@@ -292,7 +293,7 @@ const Button = () => {
                     </code>
                 </pre>
             </figure>
-            
+            <Anchor />
         </div>
     );
 }

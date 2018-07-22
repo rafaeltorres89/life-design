@@ -3,14 +3,14 @@ import React from 'react';
 import Breadcrumb from './breadcrumb';
 import Anchor from './anchor';
 
-const Checkbox = () => {
+const Typography = () => {
     return (
         <div className="components">
             <Breadcrumb />
-            <h2>Checkbox</h2>
+            <h2>Typography</h2>
             <Anchor />
         </div>
     );
 }
 
-export default Checkbox;
+export default Typography;
