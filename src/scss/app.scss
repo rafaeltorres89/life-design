@@ -47,4 +47,10 @@ body
         display: flex;
         justify-content: center;
     }
+
+    .main-home
+    {
+        @include default;
+        padding-top: 50px;
+    }
 }
