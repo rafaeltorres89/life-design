@@ -14,6 +14,9 @@ main
         padding-right: 210px;
 
         /* Components */
+        @import "../breadcrumb/breadcrumb";
+
+        /* Components */
         @import "../components/button/button";
         @import "../components/checkbox/checkbox";
 
@@ -53,7 +56,7 @@ main
             margin-top: 20px;
             background: $light;
             border: solid 1px lighten($metal, 15%);
-            background: lighten($metal, 20%)
+            background: lighten($metal, 20%);
         }
         
         .highlight

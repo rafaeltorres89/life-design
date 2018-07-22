@@ -10824,10 +10824,30 @@ body main .components {
   padding: 20px 30px;
   padding-right: 210px;
   /* Components */
+  /* Breadcrumb
+----------------------------------------------------------------------- */
+  /* Components */
   /* Checkbox
 ----------------------------------------------------------------------- */
   /* Checkbox
 ----------------------------------------------------------------------- */
+}
+
+body main .components .breadcrumb {
+  background: #f6f4f2;
+}
+
+body main .components .breadcrumb li.breadcrumb-item,
+body main .components .breadcrumb li.breadcrumb-item a {
+  font-family: senticosansThin;
+}
+
+body main .components .breadcrumb li.breadcrumb-item a {
+  color: #00aeef;
+}
+
+body main .components .breadcrumb li.breadcrumb-item.active {
+  color: #ac9684;
 }
 
 body main .components .btn {

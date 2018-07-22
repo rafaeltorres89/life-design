@@ -1,0 +1,17 @@
+/* Breadcrumb
+----------------------------------------------------------------------- */
+
+.breadcrumb
+{
+    background: lighten($metal, 16%);
+
+    li.breadcrumb-item,
+    li.breadcrumb-item a
+    { font-family: senticosansThin; }
+
+    li.breadcrumb-item a
+    { color: $cerulean; }
+
+    li.breadcrumb-item.active
+    { color: darken($metal, 20%); }
+}
