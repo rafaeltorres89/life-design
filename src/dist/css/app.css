@@ -11239,6 +11239,15 @@ body main .components .color-box .bg-dtAqua {
   background: #49C4D4;
 }
 
+body main .components .color-box .bg-light {
+  background: white;
+  border: solid 1px #e6e6e6;
+}
+
+body main .components .color-box .bg-dark {
+  background: #231F20;
+}
+
 body main .components .bd-example .txt-font {
   font-family: senticosansThin;
   color: #231F20;

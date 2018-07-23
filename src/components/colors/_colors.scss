@@ -122,4 +122,7 @@
     .bg-dtCute              { background: $dtCute; }
     .bg-dtVampire           { background: $dtVampire; }
     .bg-dtAqua              { background: $dtAqua; }
+
+    .bg-light               { background: $light; border: solid 1px darken($light, 10%); }
+    .bg-dark                { background: $dark; }
 }
