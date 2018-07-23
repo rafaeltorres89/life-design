@@ -5,7 +5,7 @@ const Breadcrumb = () => {
         <ul className="breadcrumb">
             <li className="breadcrumb-item"><a href="">Home</a></li>
             <li className="breadcrumb-item"><a href="">Components</a></li>
-            <li className="breadcrumb-item active">Checkbox</li>
+            <li className="breadcrumb-item active">Colors</li>
         </ul>
     );
 }

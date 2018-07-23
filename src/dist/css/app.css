@@ -10417,13 +10417,13 @@ body main .components .radio .cr, body main .components .highlight pre code span
 
 #NO-MARGIN, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, #root, .content, body ul, body header, body header h1.logo, body header h1.logo > a, body header ul.navbar, body aside.sidebar, body aside.sidebar .box-scrool, body aside.sidebar ul.components, body main, body main .components, body main .components .bd-example .txt-font, body .main-home {
+*:before, #root, .content, body ul, body header, body header h1.logo, body header h1.logo > a, body header ul.navbar, body aside.sidebar, body aside.sidebar .box-scrool, body aside.sidebar ul.components, body main, body main .components, body main .components .line-color, body main .components .color-box .full-color, body main .components .bd-example .txt-font, body .main-home {
   margin: 0;
 }
 
 #NO-PADDING, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, #root, .content, body ul, body header h1.logo > a, body header ul.navbar, body aside.sidebar, body aside.sidebar .box-scrool, body aside.sidebar ul.components, body main, body main .components, body main .components .bd-example .txt-font, body .main-home {
+*:before, #root, .content, body ul, body header h1.logo > a, body header ul.navbar, body aside.sidebar, body aside.sidebar .box-scrool, body aside.sidebar ul.components, body main, body main .components, body main .components .color-box .full-color, body main .components .bd-example .txt-font, body .main-home {
   padding: 0;
 }
 
@@ -10439,7 +10439,7 @@ body main .components .radio .cr, body main .components .highlight pre code span
   font-weight: normal;
 }
 
-#BOLD, body p strong, body a strong, body span strong {
+#BOLD, body p strong, body a strong, body span strong, body main .components .color-box .txt-info-color .name-color {
   font-weight: bold;
 }
 
@@ -10464,7 +10464,7 @@ body header ul li a:hover, body aside.sidebar ul.components li.lt > a:hover, bod
   text-decoration: none;
 }
 
-#UPPERCASE {
+#UPPERCASE, body main .components .color-box .txt-info-color .name-color {
   text-transform: uppercase;
 }
 
@@ -10828,6 +10828,8 @@ body main .components {
 ----------------------------------------------------------------------- */
   /* Checkbox
 ----------------------------------------------------------------------- */
+  /* Checkbox
+----------------------------------------------------------------------- */
   /* Typography
 ----------------------------------------------------------------------- */
 }
@@ -10936,6 +10938,305 @@ body main .components .radio .cr {
 
 body main .components .radio .cr .cr-icon {
   margin-left: 0.04em;
+}
+
+body main .components .line-color {
+  width: 100%;
+}
+
+body main .components .color-box {
+  max-width: 20%;
+  margin: 10px 20px;
+  -webkit-box-shadow: 0px 0px 5px 0px #ededed;
+  -moz-box-shadow: 0px 0px 5px 0px #ededed;
+  box-shadow: 0px 0px 5px 0px #ededed;
+}
+
+body main .components .color-box:first-child {
+  margin-left: 0;
+}
+
+body main .components .color-box:hover {
+  -webkit-box-shadow: 0px 0px 5px 0px #cfcfcf;
+  -moz-box-shadow: 0px 0px 5px 0px #cfcfcf;
+  box-shadow: 0px 0px 5px 0px #cfcfcf;
+}
+
+body main .components .color-box .full-color {
+  width: 100%;
+  height: 100%;
+  height: 100px;
+}
+
+body main .components .color-box .txt-info-color {
+  background: white;
+  padding: 15px;
+}
+
+body main .components .color-box .txt-info-color p {
+  font-size: 0.75rem;
+  color: #675b5e;
+  margin: 5px 0;
+}
+
+body main .components .color-box .txt-info-color p:first-child {
+  margin-top: 0;
+}
+
+body main .components .color-box .txt-info-color p:last-child {
+  margin-bottom: 0;
+}
+
+body main .components .color-box .txt-info-color .name-color {
+  font-family: senticosansLight;
+}
+
+body main .components .color-box .txt-info-color .hexa-color {
+  font-family: senticosansThin;
+}
+
+body main .components .color-box .bg-aegonBlue {
+  background: #0069B4;
+}
+
+body main .components .color-box .bg-prussianBlue {
+  background: #001E32;
+}
+
+body main .components .color-box .bg-regalBlue {
+  background: #003C64;
+}
+
+body main .components .color-box .bg-lochmara {
+  background: #0079C2;
+}
+
+body main .components .color-box .bg-cerulean {
+  background: #00aeef;
+}
+
+body main .components .color-box .bg-puertoRico {
+  background: #3BC8BC;
+}
+
+body main .components .color-box .bg-codGray {
+  background: #1D1D1D;
+}
+
+body main .components .color-box .bg-support {
+  background: #929292;
+}
+
+body main .components .color-box .bg-silver {
+  background: #A5A5A5;
+}
+
+body main .components .color-box .bg-line {
+  background: #D8D8D8;
+}
+
+body main .components .color-box .bg-lightLine {
+  background: #F0F0F0;
+}
+
+body main .components .color-box .bg-metal {
+  background: #D5CAC1;
+}
+
+body main .components .color-box .bg-chestnut {
+  background: #B8423E;
+}
+
+body main .components .color-box .bg-affair {
+  background: #6D4592;
+}
+
+body main .components .color-box .bg-goldDrop {
+  background: #F27D00;
+}
+
+body main .components .color-box .bg-tulipTree {
+  background: #E6B627;
+}
+
+body main .components .color-box .bg-goblin {
+  background: #347D3E;
+}
+
+body main .components .color-box .bg-apple {
+  background: #49AF57;
+}
+
+body main .components .color-box .bg-theBlue {
+  background: #3455DB;
+}
+
+body main .components .color-box .bg-specialBlue {
+  background: #00008B;
+}
+
+body main .components .color-box .bg-specialLink {
+  background: #0000E0;
+}
+
+body main .components .color-box .bg-specialFire {
+  background: #AA0000;
+}
+
+body main .components .color-box .bg-specialSea {
+  background: #007FAA;
+}
+
+body main .components .color-box .bg-specialPoison {
+  background: #7600A8;
+}
+
+body main .components .color-box .bg-specialPumpkin {
+  background: #AA5D00;
+}
+
+body main .components .color-box .bg-specialMoss {
+  background: #806C00;
+}
+
+body main .components .color-box .bg-specialNature {
+  background: #005500;
+}
+
+body main .components .color-box .bg-specialPool {
+  background: #008080;
+}
+
+body main .components .color-box .bg-dtConcrete {
+  background: #535353;
+}
+
+body main .components .color-box .bg-dtSecondDark {
+  background: #39373A;
+}
+
+body main .components .color-box .bg-dtStainless {
+  background: #888888;
+}
+
+body main .components .color-box .bg-dtDoria {
+  background: #D0CDD0;
+}
+
+body main .components .color-box .bg-dtUbiquitous {
+  background: #666966;
+}
+
+body main .components .color-box .bg-dtNavy {
+  background: #636883;
+}
+
+body main .components .color-box .bg-dtGhost {
+  background: #8A96C7;
+}
+
+body main .components .color-box .bg-dtHalloween {
+  background: #6893FF;
+}
+
+body main .components .color-box .bg-dtSaara {
+  background: #B19E15;
+}
+
+body main .components .color-box .bg-dtSand {
+  background: #D4BD29;
+}
+
+body main .components .color-box .bg-dtPersian {
+  background: #796E39;
+}
+
+body main .components .color-box .bg-dtTopaz {
+  background: #B4A458;
+}
+
+body main .components .color-box .bg-dtHole {
+  background: #201C1D;
+}
+
+body main .components .color-box .bg-dtMetalPink {
+  background: #9F8D93;
+}
+
+body main .components .color-box .bg-dtCottonCandy {
+  background: #ECD1D9;
+}
+
+body main .components .color-box .bg-dtCute {
+  background: #EFAAB7;
+}
+
+body main .components .color-box .bg-dtDust {
+  background: #C79500;
+}
+
+body main .components .color-box .bg-dtMud {
+  background: #575738;
+}
+
+body main .components .color-box .bg-dtWood {
+  background: #856943;
+}
+
+body main .components .color-box .bg-dtBamboo {
+  background: #C89C5A;
+}
+
+body main .components .color-box .bg-dtSea {
+  background: #006E76;
+}
+
+body main .components .color-box .bg-dtNight {
+  background: #002022;
+}
+
+body main .components .color-box .bg-dtOcean {
+  background: #004145;
+}
+
+body main .components .color-box .bg-dtDeafultSea {
+  background: #008089;
+}
+
+body main .components .color-box .bg-dtSupport {
+  background: #94909C;
+}
+
+body main .components .color-box .bg-dtUrbanSky {
+  background: #F2EEFF;
+}
+
+body main .components .color-box .bg-dtFlower {
+  background: #B84145;
+}
+
+body main .components .color-box .bg-dtRose {
+  background: #A81917;
+}
+
+body main .components .color-box .bg-dtWall {
+  background: #63535A;
+}
+
+body main .components .color-box .bg-dtHappy {
+  background: #F6747C;
+}
+
+body main .components .color-box .bg-dtCute {
+  background: #EFAAB7;
+}
+
+body main .components .color-box .bg-dtVampire {
+  background: #783A46;
+}
+
+body main .components .color-box .bg-dtAqua {
+  background: #49C4D4;
 }
 
 body main .components .bd-example .txt-font {

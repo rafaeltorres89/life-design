@@ -1,0 +1,125 @@
+/* Checkbox
+----------------------------------------------------------------------- */
+
+.line-color
+{
+    @extend #NO-MARGIN;
+    width: $percentage;
+}
+
+.color-box
+{
+    max-width: 20%;
+    margin: 10px 20px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(237,237,237,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(237,237,237,1);
+    box-shadow: 0px 0px 5px 0px rgba(237,237,237,1);
+
+    &:first-child { margin-left: 0; }
+
+    &:hover
+    {
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(207,207,207,1);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(207,207,207,1);
+        box-shadow: 0px 0px 5px 0px rgba(207,207,207,1);
+    }
+
+    .full-color
+    {
+        @include default;
+        height: 100px;
+    }
+
+    .txt-info-color
+    {
+        background: $light;
+        padding: 15px;
+
+        p
+        {
+            font-size: 0.75rem;
+            color: lighten($dark, 25%);
+            margin: 5px 0;
+
+            &:first-child { margin-top: 0; }
+            &:last-child { margin-bottom: 0; }
+        }
+
+        .name-color
+        {
+            @extend #BOLD, #UPPERCASE;
+            font-family: senticosansLight;
+        }
+
+        .hexa-color { font-family: senticosansThin; }
+    }
+
+    .bg-aegonBlue           { background: $aegonBlue; }
+    .bg-prussianBlue        { background: $prussianBlue; }
+    .bg-regalBlue           { background: $regalBlue; }
+    .bg-lochmara            { background: $lochmara; }
+    .bg-cerulean            { background: $cerulean; }
+    .bg-puertoRico          { background: $puertoRico; }
+
+    .bg-codGray             { background: $codGray; }
+    .bg-support             { background: $support; }
+    .bg-silver              { background: $silver; }
+    .bg-line                { background: $line; }
+    .bg-lightLine           { background: $lightLine; }
+    .bg-metal               { background: $metal; }
+
+    .bg-chestnut            { background: $chestnut; }
+    .bg-affair              { background: $affair; }
+    .bg-goldDrop            { background: $goldDrop; }
+    .bg-tulipTree           { background: $tulipTree; }
+    .bg-goblin              { background: $goblin; }
+    .bg-apple               { background: $apple; }
+
+    .bg-theBlue             { background: $theBlue; }
+    .bg-specialBlue         { background: $specialBlue; }
+    .bg-specialLink         { background: $specialLink; }
+    .bg-specialFire         { background: $specialFire; }
+    .bg-specialSea          { background: $specialSea; }
+    .bg-specialPoison       { background: $specialPoison; }
+    .bg-specialPumpkin      { background: $specialPumpkin; }
+    .bg-specialMoss         { background: $specialMoss; }
+    .bg-specialNature       { background: $specialNature; }
+    .bg-specialPool         { background: $specialPool; }
+    
+    .bg-dtConcrete          { background: $dtConcrete; }
+    .bg-dtSecondDark        { background: $dtSecondDark; }
+    .bg-dtStainless         { background: $dtStainless; }
+    .bg-dtDoria             { background: $dtDoria; }
+    .bg-dtUbiquitous        { background: $dtUbiquitous; }
+    
+    .bg-dtNavy              { background: $dtNavy; }
+    .bg-dtGhost             { background: $dtGhost; }
+    .bg-dtHalloween         { background: $dtHalloween; }
+    .bg-dtSaara             { background: $dtSaara; }
+    .bg-dtSand              { background: $dtSand; }
+    .bg-dtPersian           { background: $dtPersian; }
+    .bg-dtTopaz             { background: $dtTopaz; }
+
+    .bg-dtHole              { background: $dtHole; }
+    .bg-dtMetalPink         { background: $dtMetalPink; }
+    .bg-dtCottonCandy       { background: $dtCottonCandy; }
+    .bg-dtCute              { background: $dtCute; }
+    .bg-dtDust              { background: $dtDust; }
+    .bg-dtMud               { background: $dtMud; }
+    .bg-dtWood              { background: $dtWood; }
+    .bg-dtBamboo            { background: $dtBamboo; }
+
+    .bg-dtSea               { background: $dtSea; }
+    .bg-dtNight             { background: $dtNight; }
+    .bg-dtOcean             { background: $dtOcean; }
+    .bg-dtDeafultSea        { background: $dtDeafultSea; }
+    .bg-dtSupport           { background: $dtSupport; }
+    .bg-dtUrbanSky          { background: $dtUrbanSky; }
+    .bg-dtFlower            { background: $dtFlower; }
+    .bg-dtRose              { background: $dtRose; }
+    .bg-dtWall              { background: $dtWall; }
+    .bg-dtHappy             { background: $dtHappy; }
+    .bg-dtCute              { background: $dtCute; }
+    .bg-dtVampire           { background: $dtVampire; }
+    .bg-dtAqua              { background: $dtAqua; }
+}
