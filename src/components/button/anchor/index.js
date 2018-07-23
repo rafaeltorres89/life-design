@@ -1,12 +1,18 @@
-import React from 'react';
+import React, {Component} from 'react';
+
+class ListSubTitle extends Component {
+    render(){
+        return <li><a href="" title="" className="lk">{this.props.text}</a></li>
+    }
+}
 
 const Anchor = () => {
     return (
         <ul className="section-nav">
-            <li><a href="" title="" className="lk">Example</a></li>
-            <li><a href="" title="" className="lk">Outline button</a></li>
-            <li><a href="" title="" className="lk">Sizes</a></li>
-            <li><a href="" title="" className="lk">Disabled state</a></li>
+            <ListSubTitle text="Example"/>
+            <ListSubTitle text="Outline button"/>
+            <ListSubTitle text="Sizes"/>
+            <ListSubTitle text="Disabled state"/>
         </ul>
     );
 }
