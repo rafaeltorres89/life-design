@@ -1,22 +1,34 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 import Breadcrumb from './breadcrumb';
 import Anchor from './anchor';
+
+class Title extends Component {
+    render(){
+        return <h2>{this.props.text}</h2>
+    }
+}
+
+class SubTitle extends Component {
+    render(){
+        return <h3>{this.props.text}</h3>
+    }
+}
 
 const Typography = () => {
     return (
         <div className="components">
             <Breadcrumb />
-            <h2>Typography</h2>
+            <Title text="Typography" />
             <p className="info-page">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <h3>Global settings</h3>
+            <SubTitle text="Global settings" />
             <p className="info-page">Lide Design Mongeral sets basic global display, typography, and link styles. When more control is needed, check out the textual utility classes.</p>
             <ol>
                 <li>Use a native font stack that selects the best font-family for each OS and device.</li>
                 <li>For a more inclusive and accessible type scale, we assume the browser default root font-size (typically 16px) so visitors can customize their browser defaults as needed.</li>
                 <li>Use the $font-family-base, $font-size-base, and $line-height-base attributes as our typographic base applied to the body.</li> 
             </ol>
-            <h3>Headings</h3>
+            <SubTitle text="Headings" />
             <p className="info-page">All HTML headings, h1 through h6, are available.</p>
             <div className="bd-example">
                 <h1 className="txt-font">h1. Bootstrap heading</h1>

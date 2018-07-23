@@ -1,15 +1,27 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 import Breadcrumb from './breadcrumb';
 import Anchor from './anchor';
+
+class Title extends Component {
+    render(){
+        return <h2>{this.props.text}</h2>
+    }
+}
+
+class SubTitle extends Component {
+    render(){
+        return <h3>{this.props.text}</h3>
+    }
+}
 
 const Button = () => {
     return (
         <div className="components">
             <Breadcrumb />
-            <h2>Button</h2>
+            <Title text="Button" />
             <p className="info-page">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <h3>Examples</h3>
+            <SubTitle text="Examples" />
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
             <div className="bd-example flex-container">
                 <button type="button" class="btn btn-primary">Primary</button>
@@ -100,7 +112,7 @@ const Button = () => {
                 <h5>Conveying meaning to assistive technologies</h5>
                 <p>Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies – such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (e.g. the visible text), or is included through alternative means, such as additional text hidden with the .sr-only class.</p>
             </div>
-            <h3>Outline button</h3>
+            <SubTitle text="Outline button" />
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
             <div className="bd-example flex-container">
                 <button type="button" class="btn btn-outline-primary">Primary</button>
@@ -174,7 +186,7 @@ const Button = () => {
                     </code>
                 </pre>
             </figure>
-            <h3>Sizes</h3>
+            <SubTitle text="Sizes" />
             <p>Fancy larger or smaller buttons? Add .btn-lg or .btn-sm for additional sizes.</p>
             <div className="bd-example flex-container">
                 <button type="button" class="btn btn-primary btn-lg">Large button</button>
@@ -261,7 +273,7 @@ const Button = () => {
                     </code>
                 </pre>
             </figure>
-            <h3>Disabled state</h3>
+            <SubTitle text="Disabled state" />
             <p>Make buttons look inactive by adding the disabled boolean attribute to any &lt;button&gt; element.</p>
             <div className="bd-example flex-container">
                 <button type="button" class="btn btn-lg btn-primary" disabled>Primary button</button>

@@ -1,13 +1,19 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 import Breadcrumb from './breadcrumb';
 import Anchor from './anchor';
+
+class Title extends Component {
+    render(){
+        return <h2>{this.props.text}</h2>
+    }
+}
 
 const Checkbox = () => {
     return (
         <div className="components">
             <Breadcrumb />
-            <h2>Checkbox</h2>
+            <Title text="Checkbox" />
             <Anchor />
         </div>
     );
