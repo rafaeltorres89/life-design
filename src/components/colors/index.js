@@ -220,8 +220,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-theBlue"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="The Blue" />
+                            <HexaColor text="3455DB" />
                         </div>
                     </div>
                 </div>
@@ -229,8 +229,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-specialBlue"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="Special Blue" />
+                            <HexaColor text="00008B" />
                         </div>
                     </div>
                 </div>
@@ -238,8 +238,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-specialLink"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="Special Link" />
+                            <HexaColor text="0000E0" />
                         </div>
                     </div>
                 </div>
@@ -247,8 +247,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-specialFire"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="Special Fire" />
+                            <HexaColor text="AA0000" />
                         </div>
                     </div>
                 </div>
@@ -258,8 +258,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-specialSea"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="Special Sea" />
+                            <HexaColor text="007FAA" />
                         </div>
                     </div>
                 </div>
@@ -267,8 +267,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-specialPoison"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="Special Poison" />
+                            <HexaColor text="7600A8" />
                         </div>
                     </div>
                 </div>
@@ -276,8 +276,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-specialPumpkin"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="Special Pumpkin" />
+                            <HexaColor text="AA5D00" />
                         </div>
                     </div>
                 </div>
@@ -285,8 +285,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-specialMoss"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="Special Moss" />
+                            <HexaColor text="806C00" />
                         </div>
                     </div>
                 </div>
@@ -296,8 +296,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-specialNature"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="Special Nature" />
+                            <HexaColor text="005500" />
                         </div>
                     </div>
                 </div>
@@ -305,8 +305,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-specialPool"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="Special Pool" />
+                            <HexaColor text="008080" />
                         </div>
                     </div>
                 </div>
@@ -318,8 +318,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtConcrete"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Concrete" />
+                            <HexaColor text="535353" />
                         </div>
                     </div>
                 </div>
@@ -327,8 +327,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtSecondDark"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Second Dark" />
+                            <HexaColor text="39373A" />
                         </div>
                     </div>
                 </div>
@@ -336,8 +336,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtStainless"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Stainless" />
+                            <HexaColor text="888888" />
                         </div>
                     </div>
                 </div>
@@ -345,8 +345,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtDoria"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Doria" />
+                            <HexaColor text="D0CDD0" />
                         </div>
                     </div>
                 </div>
@@ -356,8 +356,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtUbiquitous"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Ubiquitous" />
+                            <HexaColor text="666966" />
                         </div>
                     </div>
                 </div>
@@ -369,8 +369,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtNavy"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Navy" />
+                            <HexaColor text="636883" />
                         </div>
                     </div>
                 </div>
@@ -378,8 +378,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtGhost"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Ghost" />
+                            <HexaColor text="8A96C7" />
                         </div>
                     </div>
                 </div>
@@ -387,8 +387,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtHalloween"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Halloween" />
+                            <HexaColor text="6893FF" />
                         </div>
                     </div>
                 </div>
@@ -396,8 +396,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtSaara"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Saara" />
+                            <HexaColor text="B19E15" />
                         </div>
                     </div>
                 </div>
@@ -407,8 +407,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtSand"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Sand" />
+                            <HexaColor text="D4BD29" />
                         </div>
                     </div>
                 </div>
@@ -416,8 +416,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtPersian"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Persian" />
+                            <HexaColor text="796E39" />
                         </div>
                     </div>
                 </div>
@@ -425,8 +425,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtTopaz"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Topaz" />
+                            <HexaColor text="B4A458" />
                         </div>
                     </div>
                 </div>
@@ -438,8 +438,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtHole"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Hole" />
+                            <HexaColor text="201C1D" />
                         </div>
                     </div>
                 </div>
@@ -447,8 +447,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtMetalPink"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Metal Pink" />
+                            <HexaColor text="9F8D93" />
                         </div>
                     </div>
                 </div>
@@ -456,8 +456,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtCottonCandy"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Cotton Candy" />
+                            <HexaColor text="ECD1D9" />
                         </div>
                     </div>
                 </div>
@@ -465,8 +465,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtCute"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Cute" />
+                            <HexaColor text="FFEBF1" />
                         </div>
                     </div>
                 </div>
@@ -476,8 +476,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtDust"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Dust" />
+                            <HexaColor text="C79500" />
                         </div>
                     </div>
                 </div>
@@ -485,8 +485,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtMud"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Mud" />
+                            <HexaColor text="575738" />
                         </div>
                     </div>
                 </div>
@@ -494,8 +494,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtWood"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Wood" />
+                            <HexaColor text="856943" />
                         </div>
                     </div>
                 </div>
@@ -503,8 +503,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtBamboo"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Bamboo" />
+                            <HexaColor text="C89C5A" />
                         </div>
                     </div>
                 </div>
@@ -516,8 +516,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtSea"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Sea" />
+                            <HexaColor text="006E76" />
                         </div>
                     </div>
                 </div>
@@ -525,8 +525,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtNight"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Night" />
+                            <HexaColor text="002022" />
                         </div>
                     </div>
                 </div>
@@ -534,8 +534,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtOcean"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Ocean" />
+                            <HexaColor text="004145" />
                         </div>
                     </div>
                 </div>
@@ -543,8 +543,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtDeafultSea"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Deafult Sea" />
+                            <HexaColor text="008089" />
                         </div>
                     </div>
                 </div>
@@ -554,8 +554,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtSupport"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Support" />
+                            <HexaColor text="94909C" />
                         </div>
                     </div>
                 </div>
@@ -563,8 +563,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtUrbanSky"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Urban Sky" />
+                            <HexaColor text="F2EEFF" />
                         </div>
                     </div>
                 </div>
@@ -572,8 +572,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtFlower"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Flower" />
+                            <HexaColor text="B84145" />
                         </div>
                     </div>
                 </div>
@@ -581,8 +581,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtRose"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Rose" />
+                            <HexaColor text="A81917" />
                         </div>
                     </div>
                 </div>
@@ -592,8 +592,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtWall"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Wall" />
+                            <HexaColor text="63535A" />
                         </div>
                     </div>
                 </div>
@@ -601,8 +601,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtHappy"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Happy" />
+                            <HexaColor text="F6747C" />
                         </div>
                     </div>
                 </div>
@@ -610,8 +610,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtCute"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Cute" />
+                            <HexaColor text="EFAAB7" />
                         </div>
                     </div>
                 </div>
@@ -619,8 +619,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtVampire"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Vampire" />
+                            <HexaColor text="783A46" />
                         </div>
                     </div>
                 </div>
@@ -630,8 +630,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dtAqua"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="DT Aqua" />
+                            <HexaColor text="49C4D4" />
                         </div>
                     </div>
                 </div>
@@ -643,8 +643,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-light"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="Light" />
+                            <HexaColor text="FFFFFF" />
                         </div>
                     </div>
                 </div>
@@ -652,8 +652,8 @@ const Colors = () => {
                     <div className="row">
                         <div className="full-color bg-dark"></div>
                         <div className="txt-info-color">
-                            <NameColor text="Aegon" />
-                            <HexaColor text="0069B4" />
+                            <NameColor text="Dark" />
+                            <HexaColor text="231F20" />
                         </div>
                     </div>
                 </div>
