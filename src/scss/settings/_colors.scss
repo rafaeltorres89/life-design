@@ -1,14 +1,80 @@
 /* Colors
 ----------------------------------------------------------------------- */
 
-// Color Default
-$silver:			#A5A5A5;
+// Colors Default
+$aegonBlue:         #0069B4;
+$prussianBlue:      #001E32;
+$regalBlue:         #003C64;
 $lochmara:          #0079C2;
 $cerulean:          #00aeef;
+$puertoRico:        #3BC8BC;
+
+$codGray:           #1D1D1D;
+$support:           #929292;
+$silver:			#A5A5A5;
+$line:              #D8D8D8;
+$lightLine:         #F0F0F0;
 $metal:             #D5CAC1;
+
 $chestnut:          #B8423E;
-$apple:             #49AF57;
+$affair:            #6D4592;
+$goldDrop:          #F27D00;
 $tulipTree:         #E6B627;
+$goblin:            #347D3E;
+$apple:             #49AF57;
+
+// Color High Contrast
+$theBlue:           #3455DB;
+$specialBlue:       #00008B;
+$specialLink:       #0000E0;
+$specialFire:       #AA0000;
+$specialSea:        #007FAA;
+$specialPoison:     #7600A8;
+$specialPumpkin:    #AA5D00;
+$specialMoss:       #806C00;
+$specialNature:     #005500;
+$specialPool:       #008080;
+
+// Color DT Acromatico
+$dtConcrete:        #535353;
+$dtSecondDark:      #39373A;
+$dtStainless:       #888888;
+$dtDoria:           #D0CDD0;
+$dtUbiquitous:      #666966;
+
+// Color DT Dic
+$dtNavy:            #636883;
+$dtGhost:           #8A96C7;
+$dtHalloween:       #6893FF;
+$dtSaara:           #B19E15;
+$dtSand:            #D4BD29;
+$dtPersian:         #796E39;
+$dtTopaz:           #B4A458;
+
+// Color DT Dic Tri
+$dtHole:            #201C1D;
+$dtMetalPink:       #9F8D93;
+$dtCottonCandy:     #ECD1D9;
+$dtCute:            #FFEBF1;
+$dtDust:            #C79500;
+$dtMud:             #575738;
+$dtWood:            #856943;
+$dtBamboo:          #C89C5A;
+
+// Color DT Dic Tri
+$dtSea:             #006E76;
+$dtNight:           #002022;
+$dtOcean:           #004145;
+$dtDeafultSea:      #008089;
+$dtSupport:         #94909C;
+$dtUrbanSky:        #F2EEFF;
+$dtFlower:          #B84145;
+$dtRose:            #A81917;
+$dtWall:            #63535A;
+$dtHappy:           #F6747C;
+$dtCute:            #EFAAB7;
+$dtVampire:         #783A46;
+$dtAqua:            #49C4D4;
 
 // Color Saturation
 $light:             lighten( $silver, 50% );
